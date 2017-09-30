@@ -1,0 +1,981 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AT91C_BASE_CKGR	at91rm9200/lowlevel_init.S	/^#define AT91C_BASE_CKGR 0xFFFFFC20$/;"	d
+AT91C_ST_EXTEN	at91rm9200/interrupts.c	200;"	d	file:
+AT91C_ST_RSTEN	at91rm9200/interrupts.c	199;"	d	file:
+AT91C_ST_WDRST	at91rm9200/interrupts.c	201;"	d	file:
+AT91C_TC_CMR_CPCTRG	at91rm9200/interrupts.c	58;"	d	file:
+BD	ks8695/serial.c	/^	unsigned int	BD;		\/* 0x1c	- Baud Rate (r\/w) *\/$/;"	m	struct:ks8695uart	file:
+BULK_TO	at91rm9200/usb_ohci.c	1247;"	d	file:
+BULK_TO	s3c24x0/usb_ohci.c	1261;"	d	file:
+C1_ALIGN	cpu.c	82;"	d	file:
+C1_BIG_ENDIAN	cpu.c	85;"	d	file:
+C1_DC	cpu.c	83;"	d	file:
+C1_HIGH_VECTORS	cpu.c	89;"	d	file:
+C1_IC	cpu.c	88;"	d	file:
+C1_MMU	cpu.c	81;"	d	file:
+C1_ROM_PROT	cpu.c	87;"	d	file:
+C1_SYS_PROT	cpu.c	86;"	d	file:
+CKGR_MOR	at91rm9200/lowlevel_init.S	/^#define CKGR_MOR 0$/;"	d
+COBJS	Makefile	/^COBJS	= cpu.o interrupts.o$/;"	m
+COBJS	at91rm9200/Makefile	/^COBJS	= bcm5221.o dm9161.o ether.o i2c.o interrupts.o \\$/;"	m
+COBJS	imx/Makefile	/^COBJS	= generic.o interrupts.o serial.o speed.o$/;"	m
+COBJS	ks8695/Makefile	/^COBJS	= interrupts.o serial.o$/;"	m
+COBJS	s3c24x0/Makefile	/^COBJS	= i2c.o interrupts.o serial.o speed.o \\$/;"	m
+DEBUG	at91rm9200/usb_ohci.c	66;"	d	file:
+DEBUG	s3c24x0/usb_ohci.c	66;"	d	file:
+EBI_CFGR	at91rm9200/lowlevel_init.S	/^#define EBI_CFGR	0xFFFFFF64$/;"	d
+EBI_CSA	at91rm9200/lowlevel_init.S	/^#define EBI_CSA		0xFFFFFF60$/;"	d
+ED_DEL	at91rm9200/usb_ohci.h	37;"	d
+ED_DEL	s3c24x0/usb_ohci.h	36;"	d
+ED_NEW	at91rm9200/usb_ohci.h	34;"	d
+ED_NEW	s3c24x0/usb_ohci.h	33;"	d
+ED_OPER	at91rm9200/usb_ohci.h	36;"	d
+ED_OPER	s3c24x0/usb_ohci.h	35;"	d
+ED_UNLINK	at91rm9200/usb_ohci.h	35;"	d
+ED_UNLINK	s3c24x0/usb_ohci.h	34;"	d
+ED_URB_DEL	at91rm9200/usb_ohci.h	38;"	d
+ED_URB_DEL	s3c24x0/usb_ohci.h	37;"	d
+FCR	ks8695/serial.c	/^	unsigned int	FCR;		\/* 0x08	- Fifo Control (r\/w) *\/$/;"	m	struct:ks8695uart	file:
+FIQ_STACK_START	start.S	/^FIQ_STACK_START:$/;"	l
+GetI2CSDA	s3c24x0/i2c.c	/^static int GetI2CSDA(void)$/;"	f	file:
+I2CCON_IRPND	s3c24x0/i2c.c	53;"	d	file:
+I2CSTAT_BSY	s3c24x0/i2c.c	51;"	d	file:
+I2CSTAT_NACK	s3c24x0/i2c.c	52;"	d	file:
+I2C_MODE_MR	s3c24x0/i2c.c	55;"	d	file:
+I2C_MODE_MT	s3c24x0/i2c.c	54;"	d	file:
+I2C_NACK	s3c24x0/i2c.c	47;"	d	file:
+I2C_NOK	s3c24x0/i2c.c	46;"	d	file:
+I2C_NOK_LA	s3c24x0/i2c.c	48;"	d	file:
+I2C_NOK_TOUT	s3c24x0/i2c.c	49;"	d	file:
+I2C_OK	s3c24x0/i2c.c	45;"	d	file:
+I2C_READ	s3c24x0/i2c.c	43;"	d	file:
+I2C_START_STOP	s3c24x0/i2c.c	56;"	d	file:
+I2C_TIMEOUT	s3c24x0/i2c.c	59;"	d	file:
+I2C_TXRX_ENA	s3c24x0/i2c.c	57;"	d	file:
+I2C_WRITE	s3c24x0/i2c.c	42;"	d	file:
+IRQ_STACK_START	start.S	/^IRQ_STACK_START:$/;"	l
+I_BIT	start.S	/^#define I_BIT	 0x80$/;"	d
+IsACK	s3c24x0/i2c.c	/^static int IsACK (void)$/;"	f	file:
+KS8695_UART_ADDR	ks8695/serial.c	45;"	d	file:
+KS8695_UART_CLK	ks8695/serial.c	46;"	d	file:
+LCR	ks8695/serial.c	/^	unsigned int	LCR;		\/* 0x0c	- Line Control (r\/w) *\/$/;"	m	struct:ks8695uart	file:
+LIB	Makefile	/^LIB	= $(obj)lib$(CPU).a$/;"	m
+LIB	at91rm9200/Makefile	/^LIB	= $(obj)lib$(SOC).a$/;"	m
+LIB	imx/Makefile	/^LIB	= $(obj)lib$(SOC).a$/;"	m
+LIB	ks8695/Makefile	/^LIB	= $(obj)lib$(SOC).a$/;"	m
+LIB	s3c24x0/Makefile	/^LIB	= $(obj)lib$(SOC).a$/;"	m
+LSR	ks8695/serial.c	/^	unsigned int	LSR;		\/* 0x14	- Line Status (r\/w) *\/$/;"	m	struct:ks8695uart	file:
+LoopOsc	at91rm9200/lowlevel_init.S	/^LoopOsc:$/;"	l
+MAXPSW	at91rm9200/usb_ohci.h	99;"	d
+MAXPSW	s3c24x0/usb_ohci.h	98;"	d
+MAX_ROOT_PORTS	at91rm9200/usb_ohci.h	141;"	d
+MAX_ROOT_PORTS	s3c24x0/usb_ohci.h	139;"	d
+MCKR	at91rm9200/lowlevel_init.S	/^#define MCKR		0xFFFFFC30$/;"	d
+MCR	ks8695/serial.c	/^	unsigned int	MCR;		\/* 0x10	- Modem Control (r\/w) *\/$/;"	m	struct:ks8695uart	file:
+MC_AASR	at91rm9200/lowlevel_init.S	/^#define MC_AASR		0xFFFFFF08$/;"	d
+MC_ASR	at91rm9200/lowlevel_init.S	/^#define MC_ASR		0xFFFFFF04$/;"	d
+MC_PUER	at91rm9200/lowlevel_init.S	/^#define MC_PUER		0xFFFFFF54$/;"	d
+MC_PUIA	at91rm9200/lowlevel_init.S	/^#define MC_PUIA		0xFFFFFF10$/;"	d
+MC_PUP	at91rm9200/lowlevel_init.S	/^#define MC_PUP		0xFFFFFF50$/;"	d
+MODE_SVC	start.S	/^#define MODE_SVC 0x13$/;"	d
+MPLL	s3c24x0/speed.c	41;"	d	file:
+MSR	ks8695/serial.c	/^	unsigned int	MSR;		\/* 0x18	- Modem Status (r\/w) *\/$/;"	m	struct:ks8695uart	file:
+NUM_EDS	at91rm9200/usb_ohci.h	371;"	d
+NUM_EDS	s3c24x0/usb_ohci.h	369;"	d
+NUM_INTS	at91rm9200/usb_ohci.h	128;"	d
+NUM_INTS	s3c24x0/usb_ohci.h	126;"	d
+NUM_TD	at91rm9200/usb_ohci.h	387;"	d
+NUM_TD	s3c24x0/usb_ohci.h	385;"	d
+N_URB_TD	at91rm9200/usb_ohci.h	328;"	d
+N_URB_TD	s3c24x0/usb_ohci.h	326;"	d
+OBJS	Makefile	/^OBJS	:= $(addprefix $(obj),$(COBJS) $(SOBJS))$/;"	m
+OBJS	at91rm9200/Makefile	/^OBJS	:= $(addprefix $(obj),$(SOBJS) $(COBJS))$/;"	m
+OBJS	imx/Makefile	/^OBJS	:= $(addprefix $(obj),$(SOBJS) $(COBJS))$/;"	m
+OBJS	ks8695/Makefile	/^OBJS	:= $(addprefix $(obj),$(SOBJS) $(COBJS))$/;"	m
+OBJS	s3c24x0/Makefile	/^OBJS	:= $(addprefix $(obj),$(SOBJS) $(COBJS))$/;"	m
+OHCI_BLF	at91rm9200/usb_ohci.h	206;"	d
+OHCI_BLF	s3c24x0/usb_ohci.h	204;"	d
+OHCI_CLF	at91rm9200/usb_ohci.h	205;"	d
+OHCI_CLF	s3c24x0/usb_ohci.h	203;"	d
+OHCI_CONTROL_INIT	at91rm9200/usb_ohci.c	58;"	d	file:
+OHCI_CONTROL_INIT	s3c24x0/usb_ohci.c	58;"	d	file:
+OHCI_CTRL_BLE	at91rm9200/usb_ohci.h	189;"	d
+OHCI_CTRL_BLE	s3c24x0/usb_ohci.h	187;"	d
+OHCI_CTRL_CBSR	at91rm9200/usb_ohci.h	185;"	d
+OHCI_CTRL_CBSR	s3c24x0/usb_ohci.h	183;"	d
+OHCI_CTRL_CLE	at91rm9200/usb_ohci.h	188;"	d
+OHCI_CTRL_CLE	s3c24x0/usb_ohci.h	186;"	d
+OHCI_CTRL_HCFS	at91rm9200/usb_ohci.h	190;"	d
+OHCI_CTRL_HCFS	s3c24x0/usb_ohci.h	188;"	d
+OHCI_CTRL_IE	at91rm9200/usb_ohci.h	187;"	d
+OHCI_CTRL_IE	s3c24x0/usb_ohci.h	185;"	d
+OHCI_CTRL_IR	at91rm9200/usb_ohci.h	191;"	d
+OHCI_CTRL_IR	s3c24x0/usb_ohci.h	189;"	d
+OHCI_CTRL_PLE	at91rm9200/usb_ohci.h	186;"	d
+OHCI_CTRL_PLE	s3c24x0/usb_ohci.h	184;"	d
+OHCI_CTRL_RWC	at91rm9200/usb_ohci.h	192;"	d
+OHCI_CTRL_RWC	s3c24x0/usb_ohci.h	190;"	d
+OHCI_CTRL_RWE	at91rm9200/usb_ohci.h	193;"	d
+OHCI_CTRL_RWE	s3c24x0/usb_ohci.h	191;"	d
+OHCI_ED_SKIP	at91rm9200/usb_ohci.h	120;"	d
+OHCI_ED_SKIP	s3c24x0/usb_ohci.h	118;"	d
+OHCI_HCR	at91rm9200/usb_ohci.h	204;"	d
+OHCI_HCR	s3c24x0/usb_ohci.h	202;"	d
+OHCI_INTR_FNO	at91rm9200/usb_ohci.h	221;"	d
+OHCI_INTR_FNO	s3c24x0/usb_ohci.h	219;"	d
+OHCI_INTR_MIE	at91rm9200/usb_ohci.h	224;"	d
+OHCI_INTR_MIE	s3c24x0/usb_ohci.h	222;"	d
+OHCI_INTR_OC	at91rm9200/usb_ohci.h	223;"	d
+OHCI_INTR_OC	s3c24x0/usb_ohci.h	221;"	d
+OHCI_INTR_RD	at91rm9200/usb_ohci.h	219;"	d
+OHCI_INTR_RD	s3c24x0/usb_ohci.h	217;"	d
+OHCI_INTR_RHSC	at91rm9200/usb_ohci.h	222;"	d
+OHCI_INTR_RHSC	s3c24x0/usb_ohci.h	220;"	d
+OHCI_INTR_SF	at91rm9200/usb_ohci.h	218;"	d
+OHCI_INTR_SF	s3c24x0/usb_ohci.h	216;"	d
+OHCI_INTR_SO	at91rm9200/usb_ohci.h	216;"	d
+OHCI_INTR_SO	s3c24x0/usb_ohci.h	214;"	d
+OHCI_INTR_UE	at91rm9200/usb_ohci.h	220;"	d
+OHCI_INTR_UE	s3c24x0/usb_ohci.h	218;"	d
+OHCI_INTR_WDH	at91rm9200/usb_ohci.h	217;"	d
+OHCI_INTR_WDH	s3c24x0/usb_ohci.h	215;"	d
+OHCI_OCR	at91rm9200/usb_ohci.h	207;"	d
+OHCI_OCR	s3c24x0/usb_ohci.h	205;"	d
+OHCI_QUIRK_AMD756	at91rm9200/usb_ohci.c	104;"	d	file:
+OHCI_QUIRK_AMD756	s3c24x0/usb_ohci.c	106;"	d	file:
+OHCI_SOC	at91rm9200/usb_ohci.h	208;"	d
+OHCI_SOC	s3c24x0/usb_ohci.h	206;"	d
+OHCI_USB_OPER	at91rm9200/usb_ohci.h	198;"	d
+OHCI_USB_OPER	s3c24x0/usb_ohci.h	196;"	d
+OHCI_USB_RESET	at91rm9200/usb_ohci.h	196;"	d
+OHCI_USB_RESET	s3c24x0/usb_ohci.h	194;"	d
+OHCI_USB_RESUME	at91rm9200/usb_ohci.h	197;"	d
+OHCI_USB_RESUME	s3c24x0/usb_ohci.h	195;"	d
+OHCI_USB_SUSPEND	at91rm9200/usb_ohci.h	199;"	d
+OHCI_USB_SUSPEND	s3c24x0/usb_ohci.h	197;"	d
+OHCI_USE_NPS	at91rm9200/usb_ohci.c	54;"	d	file:
+OHCI_USE_NPS	s3c24x0/usb_ohci.c	53;"	d	file:
+OHCI_VERBOSE_DEBUG	at91rm9200/usb_ohci.c	55;"	d	file:
+OHCI_VERBOSE_DEBUG	s3c24x0/usb_ohci.c	54;"	d	file:
+OK	at91rm9200/usb_ohci.c	953;"	d	file:
+OK	s3c24x0/usb_ohci.c	974;"	d	file:
+PIOC_ASR	at91rm9200/lowlevel_init.S	/^#define PIOC_ASR	0xFFFFF870$/;"	d
+PIOC_BSR	at91rm9200/lowlevel_init.S	/^#define PIOC_BSR	0xFFFFF874$/;"	d
+PIOC_PDR	at91rm9200/lowlevel_init.S	/^#define PIOC_PDR	0xFFFFF804$/;"	d
+PLLAR	at91rm9200/lowlevel_init.S	/^#define PLLAR		0xFFFFFC28$/;"	d
+PLLBR	at91rm9200/lowlevel_init.S	/^#define PLLBR		0xFFFFFC2C$/;"	d
+PhyOps	at91rm9200/ether.c	/^AT91S_PhyOps PhyOps;$/;"	v
+RBF_ADDR	at91rm9200/ether.c	34;"	d	file:
+RBF_BROADCAST	at91rm9200/ether.c	37;"	d	file:
+RBF_EXTERNAL	at91rm9200/ether.c	40;"	d	file:
+RBF_FRAMELEN	at91rm9200/ether.c	49;"	d	file:
+RBF_FRAMEMAX	at91rm9200/ether.c	48;"	d	file:
+RBF_LOCAL1	at91rm9200/ether.c	46;"	d	file:
+RBF_LOCAL2	at91rm9200/ether.c	45;"	d	file:
+RBF_LOCAL3	at91rm9200/ether.c	44;"	d	file:
+RBF_LOCAL4	at91rm9200/ether.c	43;"	d	file:
+RBF_MULTICAST	at91rm9200/ether.c	38;"	d	file:
+RBF_OWNER	at91rm9200/ether.c	35;"	d	file:
+RBF_SIZE	at91rm9200/ether.c	42;"	d	file:
+RBF_UNICAST	at91rm9200/ether.c	39;"	d	file:
+RBF_UNKOWN	at91rm9200/ether.c	41;"	d	file:
+RBF_WRAP	at91rm9200/ether.c	36;"	d	file:
+RD_RH_PORTSTAT	at91rm9200/usb_ohci.c	962;"	d	file:
+RD_RH_PORTSTAT	s3c24x0/usb_ohci.c	983;"	d	file:
+RD_RH_STAT	at91rm9200/usb_ohci.c	961;"	d	file:
+RD_RH_STAT	s3c24x0/usb_ohci.c	982;"	d	file:
+READ_TIMER	at91rm9200/interrupts.c	42;"	d	file:
+READ_TIMER	s3c24x0/interrupts.c	/^static inline ulong READ_TIMER(void)$/;"	f	file:
+RH_ACK	at91rm9200/usb_ohci.h	285;"	d
+RH_ACK	s3c24x0/usb_ohci.h	283;"	d
+RH_A_DT	at91rm9200/usb_ohci.h	322;"	d
+RH_A_DT	s3c24x0/usb_ohci.h	320;"	d
+RH_A_NDP	at91rm9200/usb_ohci.h	319;"	d
+RH_A_NDP	s3c24x0/usb_ohci.h	317;"	d
+RH_A_NOCP	at91rm9200/usb_ohci.h	324;"	d
+RH_A_NOCP	s3c24x0/usb_ohci.h	322;"	d
+RH_A_NPS	at91rm9200/usb_ohci.h	321;"	d
+RH_A_NPS	s3c24x0/usb_ohci.h	319;"	d
+RH_A_OCPM	at91rm9200/usb_ohci.h	323;"	d
+RH_A_OCPM	s3c24x0/usb_ohci.h	321;"	d
+RH_A_POTPGT	at91rm9200/usb_ohci.h	325;"	d
+RH_A_POTPGT	s3c24x0/usb_ohci.h	323;"	d
+RH_A_PSM	at91rm9200/usb_ohci.h	320;"	d
+RH_A_PSM	s3c24x0/usb_ohci.h	318;"	d
+RH_B_DR	at91rm9200/usb_ohci.h	315;"	d
+RH_B_DR	s3c24x0/usb_ohci.h	313;"	d
+RH_B_PPCM	at91rm9200/usb_ohci.h	316;"	d
+RH_B_PPCM	s3c24x0/usb_ohci.h	314;"	d
+RH_CLASS	at91rm9200/usb_ohci.h	243;"	d
+RH_CLASS	s3c24x0/usb_ohci.h	241;"	d
+RH_CLEAR_FEATURE	at91rm9200/usb_ohci.h	248;"	d
+RH_CLEAR_FEATURE	s3c24x0/usb_ohci.h	246;"	d
+RH_C_HUB_LOCAL_POWER	at91rm9200/usb_ohci.h	279;"	d
+RH_C_HUB_LOCAL_POWER	s3c24x0/usb_ohci.h	277;"	d
+RH_C_HUB_OVER_CURRENT	at91rm9200/usb_ohci.h	280;"	d
+RH_C_HUB_OVER_CURRENT	s3c24x0/usb_ohci.h	278;"	d
+RH_C_PORT_CONNECTION	at91rm9200/usb_ohci.h	272;"	d
+RH_C_PORT_CONNECTION	s3c24x0/usb_ohci.h	270;"	d
+RH_C_PORT_ENABLE	at91rm9200/usb_ohci.h	273;"	d
+RH_C_PORT_ENABLE	s3c24x0/usb_ohci.h	271;"	d
+RH_C_PORT_OVER_CURRENT	at91rm9200/usb_ohci.h	275;"	d
+RH_C_PORT_OVER_CURRENT	s3c24x0/usb_ohci.h	273;"	d
+RH_C_PORT_RESET	at91rm9200/usb_ohci.h	276;"	d
+RH_C_PORT_RESET	s3c24x0/usb_ohci.h	274;"	d
+RH_C_PORT_SUSPEND	at91rm9200/usb_ohci.h	274;"	d
+RH_C_PORT_SUSPEND	s3c24x0/usb_ohci.h	272;"	d
+RH_DEVICE_REMOTE_WAKEUP	at91rm9200/usb_ohci.h	282;"	d
+RH_DEVICE_REMOTE_WAKEUP	s3c24x0/usb_ohci.h	280;"	d
+RH_ENDPOINT	at91rm9200/usb_ohci.h	240;"	d
+RH_ENDPOINT	s3c24x0/usb_ohci.h	238;"	d
+RH_ENDPOINT_STALL	at91rm9200/usb_ohci.h	283;"	d
+RH_ENDPOINT_STALL	s3c24x0/usb_ohci.h	281;"	d
+RH_GET_CONFIGURATION	at91rm9200/usb_ohci.h	253;"	d
+RH_GET_CONFIGURATION	s3c24x0/usb_ohci.h	251;"	d
+RH_GET_DESCRIPTOR	at91rm9200/usb_ohci.h	251;"	d
+RH_GET_DESCRIPTOR	s3c24x0/usb_ohci.h	249;"	d
+RH_GET_INTERFACE	at91rm9200/usb_ohci.h	256;"	d
+RH_GET_INTERFACE	s3c24x0/usb_ohci.h	254;"	d
+RH_GET_STATE	at91rm9200/usb_ohci.h	255;"	d
+RH_GET_STATE	s3c24x0/usb_ohci.h	253;"	d
+RH_GET_STATUS	at91rm9200/usb_ohci.h	247;"	d
+RH_GET_STATUS	s3c24x0/usb_ohci.h	245;"	d
+RH_HS_CRWE	at91rm9200/usb_ohci.h	312;"	d
+RH_HS_CRWE	s3c24x0/usb_ohci.h	310;"	d
+RH_HS_DRWE	at91rm9200/usb_ohci.h	309;"	d
+RH_HS_DRWE	s3c24x0/usb_ohci.h	307;"	d
+RH_HS_LPS	at91rm9200/usb_ohci.h	307;"	d
+RH_HS_LPS	s3c24x0/usb_ohci.h	305;"	d
+RH_HS_LPSC	at91rm9200/usb_ohci.h	310;"	d
+RH_HS_LPSC	s3c24x0/usb_ohci.h	308;"	d
+RH_HS_OCI	at91rm9200/usb_ohci.h	308;"	d
+RH_HS_OCI	s3c24x0/usb_ohci.h	306;"	d
+RH_HS_OCIC	at91rm9200/usb_ohci.h	311;"	d
+RH_HS_OCIC	s3c24x0/usb_ohci.h	309;"	d
+RH_INTERFACE	at91rm9200/usb_ohci.h	239;"	d
+RH_INTERFACE	s3c24x0/usb_ohci.h	237;"	d
+RH_NACK	at91rm9200/usb_ohci.h	287;"	d
+RH_NACK	s3c24x0/usb_ohci.h	285;"	d
+RH_OTHER	at91rm9200/usb_ohci.h	241;"	d
+RH_OTHER	s3c24x0/usb_ohci.h	239;"	d
+RH_PORT_CONNECTION	at91rm9200/usb_ohci.h	264;"	d
+RH_PORT_CONNECTION	s3c24x0/usb_ohci.h	262;"	d
+RH_PORT_ENABLE	at91rm9200/usb_ohci.h	265;"	d
+RH_PORT_ENABLE	s3c24x0/usb_ohci.h	263;"	d
+RH_PORT_LOW_SPEED	at91rm9200/usb_ohci.h	270;"	d
+RH_PORT_LOW_SPEED	s3c24x0/usb_ohci.h	268;"	d
+RH_PORT_OVER_CURRENT	at91rm9200/usb_ohci.h	267;"	d
+RH_PORT_OVER_CURRENT	s3c24x0/usb_ohci.h	265;"	d
+RH_PORT_POWER	at91rm9200/usb_ohci.h	269;"	d
+RH_PORT_POWER	s3c24x0/usb_ohci.h	267;"	d
+RH_PORT_RESET	at91rm9200/usb_ohci.h	268;"	d
+RH_PORT_RESET	s3c24x0/usb_ohci.h	266;"	d
+RH_PORT_SUSPEND	at91rm9200/usb_ohci.h	266;"	d
+RH_PORT_SUSPEND	s3c24x0/usb_ohci.h	264;"	d
+RH_PS_CCS	at91rm9200/usb_ohci.h	293;"	d
+RH_PS_CCS	s3c24x0/usb_ohci.h	291;"	d
+RH_PS_CSC	at91rm9200/usb_ohci.h	300;"	d
+RH_PS_CSC	s3c24x0/usb_ohci.h	298;"	d
+RH_PS_LSDA	at91rm9200/usb_ohci.h	299;"	d
+RH_PS_LSDA	s3c24x0/usb_ohci.h	297;"	d
+RH_PS_OCIC	at91rm9200/usb_ohci.h	303;"	d
+RH_PS_OCIC	s3c24x0/usb_ohci.h	301;"	d
+RH_PS_PES	at91rm9200/usb_ohci.h	294;"	d
+RH_PS_PES	s3c24x0/usb_ohci.h	292;"	d
+RH_PS_PESC	at91rm9200/usb_ohci.h	301;"	d
+RH_PS_PESC	s3c24x0/usb_ohci.h	299;"	d
+RH_PS_POCI	at91rm9200/usb_ohci.h	296;"	d
+RH_PS_POCI	s3c24x0/usb_ohci.h	294;"	d
+RH_PS_PPS	at91rm9200/usb_ohci.h	298;"	d
+RH_PS_PPS	s3c24x0/usb_ohci.h	296;"	d
+RH_PS_PRS	at91rm9200/usb_ohci.h	297;"	d
+RH_PS_PRS	s3c24x0/usb_ohci.h	295;"	d
+RH_PS_PRSC	at91rm9200/usb_ohci.h	304;"	d
+RH_PS_PRSC	s3c24x0/usb_ohci.h	302;"	d
+RH_PS_PSS	at91rm9200/usb_ohci.h	295;"	d
+RH_PS_PSS	s3c24x0/usb_ohci.h	293;"	d
+RH_PS_PSSC	at91rm9200/usb_ohci.h	302;"	d
+RH_PS_PSSC	s3c24x0/usb_ohci.h	300;"	d
+RH_REQ_ERR	at91rm9200/usb_ohci.h	286;"	d
+RH_REQ_ERR	s3c24x0/usb_ohci.h	284;"	d
+RH_SET_ADDRESS	at91rm9200/usb_ohci.h	250;"	d
+RH_SET_ADDRESS	s3c24x0/usb_ohci.h	248;"	d
+RH_SET_CONFIGURATION	at91rm9200/usb_ohci.h	254;"	d
+RH_SET_CONFIGURATION	s3c24x0/usb_ohci.h	252;"	d
+RH_SET_DESCRIPTOR	at91rm9200/usb_ohci.h	252;"	d
+RH_SET_DESCRIPTOR	s3c24x0/usb_ohci.h	250;"	d
+RH_SET_EP	at91rm9200/usb_ohci.h	260;"	d
+RH_SET_EP	s3c24x0/usb_ohci.h	258;"	d
+RH_SET_FEATURE	at91rm9200/usb_ohci.h	249;"	d
+RH_SET_FEATURE	s3c24x0/usb_ohci.h	247;"	d
+RH_SET_INTERFACE	at91rm9200/usb_ohci.h	257;"	d
+RH_SET_INTERFACE	s3c24x0/usb_ohci.h	255;"	d
+RH_SYNC_FRAME	at91rm9200/usb_ohci.h	258;"	d
+RH_SYNC_FRAME	s3c24x0/usb_ohci.h	256;"	d
+RH_VENDOR	at91rm9200/usb_ohci.h	244;"	d
+RH_VENDOR	s3c24x0/usb_ohci.h	242;"	d
+RX	ks8695/serial.c	/^	unsigned int	RX;		\/* 0x00	- Receive data (r) *\/$/;"	m	struct:ks8695uart	file:
+ReadWriteByte	s3c24x0/i2c.c	/^static void ReadWriteByte (void)$/;"	f	file:
+SDRC_CR	at91rm9200/lowlevel_init.S	/^#define SDRC_CR		0xFFFFFF98$/;"	d
+SDRC_MR	at91rm9200/lowlevel_init.S	/^#define SDRC_MR		0xFFFFFF90$/;"	d
+SDRC_TR	at91rm9200/lowlevel_init.S	/^#define SDRC_TR		0xFFFFFF94$/;"	d
+SHOW_INFO	at91rm9200/usb_ohci.c	73;"	d	file:
+SHOW_INFO	s3c24x0/usb_ohci.c	73;"	d	file:
+SMC2_CSR	at91rm9200/lowlevel_init.S	/^#define SMC2_CSR	0xFFFFFF70$/;"	d
+SMRDATA	at91rm9200/lowlevel_init.S	/^SMRDATA:$/;"	l
+SMRDATA1	at91rm9200/lowlevel_init.S	/^SMRDATA1:$/;"	l
+SOBJS	at91rm9200/Makefile	/^SOBJS	= lowlevel_init.o$/;"	m
+SOBJS	ks8695/Makefile	/^SOBJS	= lowlevel_init.o$/;"	m
+SR	ks8695/serial.c	/^	unsigned int	SR;		\/* 0x20	- Status (r\/w) *\/$/;"	m	struct:ks8695uart	file:
+SRCS	Makefile	/^SRCS	:= $(START:.o=.S) $(SOBJS:.o=.S) $(COBJS:.o=.c)$/;"	m
+SRCS	at91rm9200/Makefile	/^SRCS	:= $(SOBJS:.o=.S) $(COBJS:.o=.c)$/;"	m
+SRCS	imx/Makefile	/^SRCS	:= $(SOBJS:.o=.S) $(COBJS:.o=.c)$/;"	m
+SRCS	ks8695/Makefile	/^SRCS	:= $(SOBJS:.o=.S) $(COBJS:.o=.c)$/;"	m
+SRCS	s3c24x0/Makefile	/^SRCS	:= $(SOBJS:.o=.S) $(COBJS:.o=.c)$/;"	m
+START	Makefile	/^START	:= $(addprefix $(obj),$(START))$/;"	m
+START	Makefile	/^START	= start.o$/;"	m
+ST_CR	at91rm9200/interrupts.c	203;"	d	file:
+ST_WDMR	at91rm9200/interrupts.c	202;"	d	file:
+S_FP	start.S	/^#define S_FP		44$/;"	d
+S_FRAME_SIZE	start.S	/^#define S_FRAME_SIZE	72$/;"	d
+S_IP	start.S	/^#define S_IP		48$/;"	d
+S_LR	start.S	/^#define S_LR		56$/;"	d
+S_OLD_R0	start.S	/^#define S_OLD_R0	68$/;"	d
+S_PC	start.S	/^#define S_PC		60$/;"	d
+S_PSR	start.S	/^#define S_PSR		64$/;"	d
+S_R0	start.S	/^#define S_R0		0$/;"	d
+S_R1	start.S	/^#define S_R1		4$/;"	d
+S_R10	start.S	/^#define S_R10		40$/;"	d
+S_R2	start.S	/^#define S_R2		8$/;"	d
+S_R3	start.S	/^#define S_R3		12$/;"	d
+S_R4	start.S	/^#define S_R4		16$/;"	d
+S_R5	start.S	/^#define S_R5		20$/;"	d
+S_R6	start.S	/^#define S_R6		24$/;"	d
+S_R7	start.S	/^#define S_R7		28$/;"	d
+S_R8	start.S	/^#define S_R8		32$/;"	d
+S_R9	start.S	/^#define S_R9		36$/;"	d
+S_SP	start.S	/^#define S_SP		52$/;"	d
+SetI2CSCL	s3c24x0/i2c.c	/^static void SetI2CSCL(int x)$/;"	f	file:
+TD_BUFFEROVERRUN	at91rm9200/usb_ohci.h	94;"	d
+TD_BUFFEROVERRUN	s3c24x0/usb_ohci.h	93;"	d
+TD_BUFFERUNDERRUN	at91rm9200/usb_ohci.h	95;"	d
+TD_BUFFERUNDERRUN	s3c24x0/usb_ohci.h	94;"	d
+TD_CC	at91rm9200/usb_ohci.h	64;"	d
+TD_CC	s3c24x0/usb_ohci.h	63;"	d
+TD_CC_BITSTUFFING	at91rm9200/usb_ohci.h	86;"	d
+TD_CC_BITSTUFFING	s3c24x0/usb_ohci.h	85;"	d
+TD_CC_CRC	at91rm9200/usb_ohci.h	85;"	d
+TD_CC_CRC	s3c24x0/usb_ohci.h	84;"	d
+TD_CC_DATATOGGLEM	at91rm9200/usb_ohci.h	87;"	d
+TD_CC_DATATOGGLEM	s3c24x0/usb_ohci.h	86;"	d
+TD_CC_GET	at91rm9200/usb_ohci.h	65;"	d
+TD_CC_GET	s3c24x0/usb_ohci.h	64;"	d
+TD_CC_NOERROR	at91rm9200/usb_ohci.h	84;"	d
+TD_CC_NOERROR	s3c24x0/usb_ohci.h	83;"	d
+TD_CC_SET	at91rm9200/usb_ohci.h	66;"	d
+TD_CC_SET	s3c24x0/usb_ohci.h	65;"	d
+TD_CC_STALL	at91rm9200/usb_ohci.h	88;"	d
+TD_CC_STALL	s3c24x0/usb_ohci.h	87;"	d
+TD_DATAOVERRUN	at91rm9200/usb_ohci.h	92;"	d
+TD_DATAOVERRUN	s3c24x0/usb_ohci.h	91;"	d
+TD_DATAUNDERRUN	at91rm9200/usb_ohci.h	93;"	d
+TD_DATAUNDERRUN	s3c24x0/usb_ohci.h	92;"	d
+TD_DEL	at91rm9200/usb_ohci.h	81;"	d
+TD_DEL	s3c24x0/usb_ohci.h	80;"	d
+TD_DEVNOTRESP	at91rm9200/usb_ohci.h	89;"	d
+TD_DEVNOTRESP	s3c24x0/usb_ohci.h	88;"	d
+TD_DI	at91rm9200/usb_ohci.h	73;"	d
+TD_DI	s3c24x0/usb_ohci.h	72;"	d
+TD_DI_SET	at91rm9200/usb_ohci.h	74;"	d
+TD_DI_SET	s3c24x0/usb_ohci.h	73;"	d
+TD_DP	at91rm9200/usb_ohci.h	75;"	d
+TD_DP	s3c24x0/usb_ohci.h	74;"	d
+TD_DP_IN	at91rm9200/usb_ohci.h	77;"	d
+TD_DP_IN	s3c24x0/usb_ohci.h	76;"	d
+TD_DP_OUT	at91rm9200/usb_ohci.h	78;"	d
+TD_DP_OUT	s3c24x0/usb_ohci.h	77;"	d
+TD_DP_SETUP	at91rm9200/usb_ohci.h	76;"	d
+TD_DP_SETUP	s3c24x0/usb_ohci.h	75;"	d
+TD_EC	at91rm9200/usb_ohci.h	67;"	d
+TD_EC	s3c24x0/usb_ohci.h	66;"	d
+TD_ISO	at91rm9200/usb_ohci.h	80;"	d
+TD_ISO	s3c24x0/usb_ohci.h	79;"	d
+TD_NOTACCESSED	at91rm9200/usb_ohci.h	96;"	d
+TD_NOTACCESSED	s3c24x0/usb_ohci.h	95;"	d
+TD_PIDCHECKFAIL	at91rm9200/usb_ohci.h	90;"	d
+TD_PIDCHECKFAIL	s3c24x0/usb_ohci.h	89;"	d
+TD_R	at91rm9200/usb_ohci.h	72;"	d
+TD_R	s3c24x0/usb_ohci.h	71;"	d
+TD_T	at91rm9200/usb_ohci.h	68;"	d
+TD_T	s3c24x0/usb_ohci.h	67;"	d
+TD_T_DATA0	at91rm9200/usb_ohci.h	69;"	d
+TD_T_DATA0	s3c24x0/usb_ohci.h	68;"	d
+TD_T_DATA1	at91rm9200/usb_ohci.h	70;"	d
+TD_T_DATA1	s3c24x0/usb_ohci.h	69;"	d
+TD_T_TOGGLE	at91rm9200/usb_ohci.h	71;"	d
+TD_T_TOGGLE	s3c24x0/usb_ohci.h	70;"	d
+TD_UNEXPECTEDPID	at91rm9200/usb_ohci.h	91;"	d
+TD_UNEXPECTEDPID	s3c24x0/usb_ohci.h	90;"	d
+TIMER_COUNT	ks8695/interrupts.c	46;"	d	file:
+TIMER_INTERVAL	ks8695/interrupts.c	45;"	d	file:
+TIMER_LOAD_VAL	at91rm9200/interrupts.c	39;"	d	file:
+TIMER_PULSE	ks8695/interrupts.c	47;"	d	file:
+TX	ks8695/serial.c	/^	unsigned int	TX;		\/* 0x04	- Transmit data (w) *\/$/;"	m	struct:ks8695uart	file:
+UART_BASE	imx/serial.c	28;"	d	file:
+UART_BASE	imx/serial.c	30;"	d	file:
+UART_NR	s3c24x0/serial.c	33;"	d	file:
+UART_NR	s3c24x0/serial.c	39;"	d	file:
+UART_NR	s3c24x0/serial.c	45;"	d	file:
+UPLL	s3c24x0/speed.c	42;"	d	file:
+URB_DEL	at91rm9200/usb_ohci.h	339;"	d
+URB_DEL	s3c24x0/usb_ohci.h	337;"	d
+WR_RH_PORTSTAT	at91rm9200/usb_ohci.c	956;"	d	file:
+WR_RH_PORTSTAT	at91rm9200/usb_ohci.c	959;"	d	file:
+WR_RH_PORTSTAT	s3c24x0/usb_ohci.c	977;"	d	file:
+WR_RH_PORTSTAT	s3c24x0/usb_ohci.c	980;"	d	file:
+WR_RH_STAT	at91rm9200/usb_ohci.c	955;"	d	file:
+WR_RH_STAT	at91rm9200/usb_ohci.c	958;"	d	file:
+WR_RH_STAT	s3c24x0/usb_ohci.c	976;"	d	file:
+WR_RH_STAT	s3c24x0/usb_ohci.c	979;"	d	file:
+WaitForXfer	s3c24x0/i2c.c	/^static int WaitForXfer (void)$/;"	f	file:
+_MTEXT_BASE	at91rm9200/lowlevel_init.S	/^_MTEXT_BASE:$/;"	l
+_TEXT_BASE	start.S	/^_TEXT_BASE:$/;"	l
+_armboot_start	start.S	/^_armboot_start:$/;"	l
+_bss_end	start.S	/^_bss_end:$/;"	l
+_bss_start	start.S	/^_bss_start:$/;"	l
+_data_abort	start.S	/^_data_abort:		.word data_abort$/;"	l
+_fiq	start.S	/^_fiq:			.word fiq$/;"	l
+_irq	start.S	/^_irq:			.word irq$/;"	l
+_not_used	start.S	/^_not_used:		.word not_used$/;"	l
+_prefetch_abort	start.S	/^_prefetch_abort:	.word prefetch_abort$/;"	l
+_software_interrupt	start.S	/^_software_interrupt:	.word software_interrupt$/;"	l
+_start	start.S	/^_start:	b       reset$/;"	l
+_start_armboot	start.S	/^_start_armboot:	.word start_armboot$/;"	l
+_undefined_instruction	start.S	/^_undefined_instruction:	.word undefined_instruction$/;"	l
+a	at91rm9200/usb_ohci.h	/^		__u32	a;$/;"	m	struct:ohci_regs::ohci_roothub_regs
+a	s3c24x0/usb_ohci.h	/^		__u32	a;$/;"	m	struct:ohci_regs::ohci_roothub_regs
+actual_length	at91rm9200/usb_ohci.h	/^	int actual_length;$/;"	m	struct:__anon1
+actual_length	s3c24x0/usb_ohci.h	/^	int actual_length;$/;"	m	struct:__anon3
+addr	at91rm9200/ether.c	/^	unsigned long addr, size;$/;"	m	struct:__anon2	file:
+at91_poll_status	at91rm9200/i2c.c	/^static short at91_poll_status(AT91PS_TWI twi, unsigned long bit) {$/;"	f	file:
+at91_xfer	at91rm9200/i2c.c	/^at91_xfer(unsigned char chip, unsigned int addr, int alen,$/;"	f	file:
+at91rm9200_EmacDisableMDIO	at91rm9200/ether.c	/^void at91rm9200_EmacDisableMDIO (AT91PS_EMAC p_mac)$/;"	f
+at91rm9200_EmacEnableMDIO	at91rm9200/ether.c	/^void at91rm9200_EmacEnableMDIO (AT91PS_EMAC p_mac)$/;"	f
+at91rm9200_EmacReadPhy	at91rm9200/ether.c	/^UCHAR at91rm9200_EmacReadPhy (AT91PS_EMAC p_mac,$/;"	f
+at91rm9200_EmacWritePhy	at91rm9200/ether.c	/^UCHAR at91rm9200_EmacWritePhy (AT91PS_EMAC p_mac,$/;"	f
+at91rm9200_miiphy_initialize	at91rm9200/ether.c	/^int at91rm9200_miiphy_initialize(bd_t *bis)$/;"	f
+at91rm9200_miiphy_read	at91rm9200/ether.c	/^int  at91rm9200_miiphy_read(char *devname, unsigned char addr,$/;"	f
+at91rm9200_miiphy_write	at91rm9200/ether.c	/^int  at91rm9200_miiphy_write(char *devname, unsigned char addr,$/;"	f
+b	at91rm9200/usb_ohci.h	/^		__u32	b;$/;"	m	struct:ohci_regs::ohci_roothub_regs
+b	s3c24x0/usb_ohci.h	/^		__u32	b;$/;"	m	struct:ohci_regs::ohci_roothub_regs
+bad_mode	interrupts.c	/^void bad_mode (void)$/;"	f
+bcm5221_AutoNegotiate	at91rm9200/bcm5221.c	/^unsigned char bcm5221_AutoNegotiate (AT91PS_EMAC p_mac, int *status)$/;"	f
+bcm5221_GetLinkSpeed	at91rm9200/bcm5221.c	/^unsigned char bcm5221_GetLinkSpeed (AT91PS_EMAC p_mac)$/;"	f
+bcm5221_InitPhy	at91rm9200/bcm5221.c	/^unsigned char bcm5221_InitPhy (AT91PS_EMAC p_mac)$/;"	f
+bcm5221_IsPhyConnected	at91rm9200/bcm5221.c	/^unsigned int bcm5221_IsPhyConnected (AT91PS_EMAC p_mac)$/;"	f
+be_quiet	s3c24x0/serial.c	/^static int be_quiet = 0;$/;"	v	file:
+bipr	imx/serial.c	/^	volatile uint32_t bipr[4];$/;"	m	struct:imx_serial	file:
+bmpr	imx/serial.c	/^	volatile uint32_t bmpr[4];$/;"	m	struct:imx_serial	file:
+cc_to_error	at91rm9200/usb_ohci.h	/^static int cc_to_error[16] = {$/;"	v
+cc_to_error	s3c24x0/usb_ohci.h	/^static int cc_to_error[16] = {$/;"	v
+cleanup_before_linux	cpu.c	/^int cleanup_before_linux (void)$/;"	f
+clear_bss	start.S	/^clear_bss:$/;"	l
+cmdstatus	at91rm9200/usb_ohci.h	/^	__u32	cmdstatus;$/;"	m	struct:ohci_regs
+cmdstatus	s3c24x0/usb_ohci.h	/^	__u32	cmdstatus;$/;"	m	struct:ohci_regs
+control	at91rm9200/usb_ohci.h	/^	__u32	control;$/;"	m	struct:ohci_regs
+control	s3c24x0/usb_ohci.h	/^	__u32	control;$/;"	m	struct:ohci_regs
+copy_loop	start.S	/^copy_loop:$/;"	l
+cp_delay	cpu.c	/^static void cp_delay (void)$/;"	f	file:
+cpu_init	cpu.c	/^int cpu_init (void)$/;"	f
+cpu_init_crit	start.S	/^cpu_init_crit:$/;"	l
+data	at91rm9200/usb_ohci.h	/^	__u32 data;$/;"	m	struct:td
+data	s3c24x0/usb_ohci.h	/^	__u32 data;$/;"	m	struct:td
+data_abort	start.S	/^data_abort:$/;"	l
+dbg	at91rm9200/usb_ohci.c	68;"	d	file:
+dbg	at91rm9200/usb_ohci.c	70;"	d	file:
+dbg	s3c24x0/usb_ohci.c	68;"	d	file:
+dbg	s3c24x0/usb_ohci.c	70;"	d	file:
+dcache_disable	cpu.c	/^void dcache_disable (void)$/;"	f
+dcache_enable	cpu.c	/^void dcache_enable (void)$/;"	f
+dcache_status	cpu.c	/^int dcache_status (void)$/;"	f
+dev	at91rm9200/usb_ohci.h	/^	struct usb_device *dev[32];$/;"	m	struct:ohci	typeref:struct:ohci::usb_device
+dev	at91rm9200/usb_ohci.h	/^	void *dev;  \/* was urb *\/$/;"	m	struct:virt_root_hub
+dev	s3c24x0/usb_ohci.h	/^	struct usb_device *dev[32];$/;"	m	struct:ohci	typeref:struct:ohci::usb_device
+dev	s3c24x0/usb_ohci.h	/^	void *dev;  \/* was urb *\/$/;"	m	struct:virt_root_hub
+devgone	at91rm9200/usb_ohci.c	/^struct usb_device *devgone;$/;"	v	typeref:struct:usb_device
+devgone	s3c24x0/usb_ohci.c	/^struct usb_device *devgone;$/;"	v	typeref:struct:usb_device
+devnum	at91rm9200/usb_ohci.h	/^	int devnum; \/* Address of Root Hub endpoint *\/$/;"	m	struct:virt_root_hub
+devnum	s3c24x0/usb_ohci.h	/^	int devnum; \/* Address of Root Hub endpoint *\/$/;"	m	struct:virt_root_hub
+disable_interrupts	interrupts.c	/^int disable_interrupts (void)$/;"	f
+disable_putc	s3c24x0/serial.c	/^void disable_putc(void)$/;"	f
+disabled	at91rm9200/usb_ohci.h	/^	int disabled;			\/* e.g. got a UE, we're hung *\/$/;"	m	struct:ohci
+disabled	s3c24x0/usb_ohci.h	/^	int disabled;			\/* e.g. got a UE, we're hung *\/$/;"	m	struct:ohci
+dl_done_list	at91rm9200/usb_ohci.c	/^static int dl_done_list (ohci_t *ohci, td_t *td_list)$/;"	f	file:
+dl_done_list	s3c24x0/usb_ohci.c	/^static int dl_done_list (ohci_t *ohci, td_t *td_list)$/;"	f	file:
+dl_reverse_done_list	at91rm9200/usb_ohci.c	/^static td_t * dl_reverse_done_list (ohci_t *ohci)$/;"	f	file:
+dl_reverse_done_list	s3c24x0/usb_ohci.c	/^static td_t * dl_reverse_done_list (ohci_t *ohci)$/;"	f	file:
+dl_transfer_length	at91rm9200/usb_ohci.c	/^static void dl_transfer_length(td_t * td)$/;"	f	file:
+dl_transfer_length	s3c24x0/usb_ohci.c	/^static void dl_transfer_length(td_t * td)$/;"	f	file:
+dm9161_AutoNegotiate	at91rm9200/dm9161.c	/^UCHAR dm9161_AutoNegotiate (AT91PS_EMAC p_mac, int *status)$/;"	f
+dm9161_GetLinkSpeed	at91rm9200/dm9161.c	/^UCHAR dm9161_GetLinkSpeed (AT91PS_EMAC p_mac)$/;"	f
+dm9161_InitPhy	at91rm9200/dm9161.c	/^UCHAR dm9161_InitPhy (AT91PS_EMAC p_mac)$/;"	f
+dm9161_IsPhyConnected	at91rm9200/dm9161.c	/^unsigned int dm9161_IsPhyConnected (AT91PS_EMAC p_mac)$/;"	f
+do_data_abort	interrupts.c	/^void do_data_abort (struct pt_regs *pt_regs)$/;"	f
+do_fiq	interrupts.c	/^void do_fiq (struct pt_regs *pt_regs)$/;"	f
+do_irq	interrupts.c	/^void do_irq (struct pt_regs *pt_regs)$/;"	f
+do_not_used	interrupts.c	/^void do_not_used (struct pt_regs *pt_regs)$/;"	f
+do_prefetch_abort	interrupts.c	/^void do_prefetch_abort (struct pt_regs *pt_regs)$/;"	f
+do_reset	cpu.c	/^int do_reset (cmd_tbl_t *cmdtp, int flag, int argc, char *argv[])$/;"	f
+do_software_interrupt	interrupts.c	/^void do_software_interrupt (struct pt_regs *pt_regs)$/;"	f
+do_undefined_instruction	interrupts.c	/^void do_undefined_instruction (struct pt_regs *pt_regs)$/;"	f
+done_head	at91rm9200/usb_ohci.h	/^	__u32	done_head;		\/* info returned for an interrupt *\/$/;"	m	struct:ohci_hcca
+done_head	s3c24x0/usb_ohci.h	/^	__u32	done_head;		\/* info returned for an interrupt *\/$/;"	m	struct:ohci_hcca
+donehead	at91rm9200/usb_ohci.h	/^	__u32	donehead;$/;"	m	struct:ohci_regs
+donehead	s3c24x0/usb_ohci.h	/^	__u32	donehead;$/;"	m	struct:ohci_regs
+ed	at91rm9200/usb_ohci.h	/^	ed_t	ed[NUM_EDS];$/;"	m	struct:ohci_device
+ed	at91rm9200/usb_ohci.h	/^	ed_t *ed;$/;"	m	struct:__anon1
+ed	at91rm9200/usb_ohci.h	/^	struct ed *ed;$/;"	m	struct:td	typeref:struct:td::ed
+ed	at91rm9200/usb_ohci.h	/^struct ed {$/;"	s
+ed	s3c24x0/usb_ohci.h	/^	ed_t 	ed[NUM_EDS];$/;"	m	struct:ohci_device
+ed	s3c24x0/usb_ohci.h	/^	ed_t *ed;$/;"	m	struct:__anon3
+ed	s3c24x0/usb_ohci.h	/^  	struct ed *ed;$/;"	m	struct:td	typeref:struct:td::ed
+ed	s3c24x0/usb_ohci.h	/^struct ed {$/;"	s
+ed_bulkcurrent	at91rm9200/usb_ohci.h	/^	__u32	ed_bulkcurrent;$/;"	m	struct:ohci_regs
+ed_bulkcurrent	s3c24x0/usb_ohci.h	/^	__u32	ed_bulkcurrent;$/;"	m	struct:ohci_regs
+ed_bulkhead	at91rm9200/usb_ohci.h	/^	__u32	ed_bulkhead;$/;"	m	struct:ohci_regs
+ed_bulkhead	s3c24x0/usb_ohci.h	/^	__u32	ed_bulkhead;$/;"	m	struct:ohci_regs
+ed_bulktail	at91rm9200/usb_ohci.h	/^	ed_t *ed_bulktail;	 \/* last endpoint of bulk list *\/$/;"	m	struct:ohci
+ed_bulktail	s3c24x0/usb_ohci.h	/^	ed_t *ed_bulktail;       \/* last endpoint of bulk list *\/$/;"	m	struct:ohci
+ed_cnt	at91rm9200/usb_ohci.h	/^	int ed_cnt;$/;"	m	struct:ohci_device
+ed_cnt	s3c24x0/usb_ohci.h	/^	int ed_cnt;$/;"	m	struct:ohci_device
+ed_controlcurrent	at91rm9200/usb_ohci.h	/^	__u32	ed_controlcurrent;$/;"	m	struct:ohci_regs
+ed_controlcurrent	s3c24x0/usb_ohci.h	/^	__u32	ed_controlcurrent;$/;"	m	struct:ohci_regs
+ed_controlhead	at91rm9200/usb_ohci.h	/^	__u32	ed_controlhead;$/;"	m	struct:ohci_regs
+ed_controlhead	s3c24x0/usb_ohci.h	/^	__u32	ed_controlhead;$/;"	m	struct:ohci_regs
+ed_controltail	at91rm9200/usb_ohci.h	/^	ed_t *ed_controltail;	 \/* last endpoint of control list *\/$/;"	m	struct:ohci
+ed_controltail	s3c24x0/usb_ohci.h	/^	ed_t *ed_controltail;    \/* last endpoint of control list *\/$/;"	m	struct:ohci
+ed_free	at91rm9200/usb_ohci.h	/^ed_free (struct ed *ed)$/;"	f
+ed_free	s3c24x0/usb_ohci.h	/^ed_free (struct ed *ed)$/;"	f
+ed_periodcurrent	at91rm9200/usb_ohci.h	/^	__u32	ed_periodcurrent;$/;"	m	struct:ohci_regs
+ed_periodcurrent	s3c24x0/usb_ohci.h	/^	__u32	ed_periodcurrent;$/;"	m	struct:ohci_regs
+ed_prev	at91rm9200/usb_ohci.h	/^	struct ed *ed_prev;$/;"	m	struct:ed	typeref:struct:ed::ed
+ed_prev	s3c24x0/usb_ohci.h	/^	struct ed *ed_prev;$/;"	m	struct:ed	typeref:struct:ed::ed
+ed_rm_list	at91rm9200/usb_ohci.h	/^	ed_t *ed_rm_list[2];	 \/* lists of all endpoints to be removed *\/$/;"	m	struct:ohci
+ed_rm_list	at91rm9200/usb_ohci.h	/^	struct ed *ed_rm_list;$/;"	m	struct:ed	typeref:struct:ed::ed
+ed_rm_list	s3c24x0/usb_ohci.h	/^	ed_t *ed_rm_list[2];     \/* lists of all endpoints to be removed *\/$/;"	m	struct:ohci
+ed_rm_list	s3c24x0/usb_ohci.h	/^	struct ed *ed_rm_list;$/;"	m	struct:ed	typeref:struct:ed::ed
+ed_t	at91rm9200/usb_ohci.h	/^typedef struct ed ed_t;$/;"	t	typeref:struct:ed
+ed_t	s3c24x0/usb_ohci.h	/^typedef struct ed ed_t;$/;"	t	typeref:struct:ed
+enable_interrupts	interrupts.c	/^void enable_interrupts (void)$/;"	f
+enable_putc	s3c24x0/serial.c	/^void enable_putc(void)$/;"	f
+ep_add_ed	at91rm9200/usb_ohci.c	/^static ed_t * ep_add_ed (struct usb_device *usb_dev, unsigned long pipe)$/;"	f	file:
+ep_add_ed	s3c24x0/usb_ohci.c	/^static ed_t * ep_add_ed (struct usb_device *usb_dev, unsigned long pipe)$/;"	f	file:
+ep_link	at91rm9200/usb_ohci.c	/^static int ep_link (ohci_t *ohci, ed_t *edi)$/;"	f	file:
+ep_link	s3c24x0/usb_ohci.c	/^static int ep_link (ohci_t *ohci, ed_t *edi)$/;"	f	file:
+ep_print_int_eds	at91rm9200/usb_ohci.c	/^void ep_print_int_eds (ohci_t *ohci, char * str) {$/;"	f
+ep_print_int_eds	s3c24x0/usb_ohci.c	/^void ep_print_int_eds (ohci_t *ohci, char * str) {$/;"	f
+ep_unlink	at91rm9200/usb_ohci.c	/^static int ep_unlink (ohci_t *ohci, ed_t *ed)$/;"	f	file:
+ep_unlink	s3c24x0/usb_ohci.c	/^static int ep_unlink (ohci_t *ohci, ed_t *ed)$/;"	f	file:
+err	at91rm9200/usb_ohci.c	72;"	d	file:
+err	s3c24x0/usb_ohci.c	72;"	d	file:
+eth_halt	at91rm9200/ether.c	/^void eth_halt (void)$/;"	f
+eth_init	at91rm9200/ether.c	/^int eth_init (bd_t * bd)$/;"	f
+eth_rx	at91rm9200/ether.c	/^int eth_rx (void)$/;"	f
+eth_send	at91rm9200/ether.c	/^int eth_send (volatile void *packet, int length)$/;"	f
+fiq	start.S	/^fiq:$/;"	l
+flags	at91rm9200/usb_ohci.h	/^	unsigned long flags;		\/* for HC bugs *\/$/;"	m	struct:ohci
+flags	s3c24x0/usb_ohci.h	/^	unsigned long flags;		\/* for HC bugs *\/$/;"	m	struct:ohci
+fminterval	at91rm9200/usb_ohci.h	/^	__u32	fminterval;$/;"	m	struct:ohci_regs
+fminterval	s3c24x0/usb_ohci.h	/^	__u32	fminterval;$/;"	m	struct:ohci_regs
+fmnumber	at91rm9200/usb_ohci.h	/^	__u32	fmnumber;$/;"	m	struct:ohci_regs
+fmnumber	s3c24x0/usb_ohci.h	/^	__u32	fmnumber;$/;"	m	struct:ohci_regs
+fmremaining	at91rm9200/usb_ohci.h	/^	__u32	fmremaining;$/;"	m	struct:ohci_regs
+fmremaining	s3c24x0/usb_ohci.h	/^	__u32	fmremaining;$/;"	m	struct:ohci_regs
+frame_no	at91rm9200/usb_ohci.h	/^	__u16	frame_no;		\/* current frame number *\/$/;"	m	struct:ohci_hcca
+frame_no	s3c24x0/usb_ohci.h	/^	__u16	frame_no;		\/* current frame number *\/$/;"	m	struct:ohci_hcca
+get_BCLK	imx/speed.c	/^ulong get_BCLK(void)$/;"	f
+get_FCLK	imx/speed.c	/^ulong get_FCLK(void)$/;"	f
+get_FCLK	s3c24x0/speed.c	/^ulong get_FCLK(void)$/;"	f
+get_HCLK	imx/speed.c	/^ulong get_HCLK(void)$/;"	f
+get_HCLK	s3c24x0/speed.c	/^ulong get_HCLK(void)$/;"	f
+get_PCLK	s3c24x0/speed.c	/^ulong get_PCLK(void)$/;"	f
+get_PERCLK1	imx/speed.c	/^ulong get_PERCLK1(void)$/;"	f
+get_PERCLK2	imx/speed.c	/^ulong get_PERCLK2(void)$/;"	f
+get_PERCLK3	imx/speed.c	/^ulong get_PERCLK3(void)$/;"	f
+get_PLLCLK	s3c24x0/speed.c	/^static ulong get_PLLCLK(int pllreg)$/;"	f	file:
+get_UCLK	s3c24x0/speed.c	/^ulong get_UCLK(void)$/;"	f
+get_mcuPLLCLK	imx/speed.c	/^ulong get_mcuPLLCLK(void)$/;"	f
+get_systemPLLCLK	imx/speed.c	/^ulong get_systemPLLCLK(void)$/;"	f
+get_tbclk	at91rm9200/interrupts.c	/^ulong get_tbclk (void)$/;"	f
+get_tbclk	imx/interrupts.c	/^ulong get_tbclk (void)$/;"	f
+get_tbclk	s3c24x0/interrupts.c	/^ulong get_tbclk (void)$/;"	f
+get_ticks	at91rm9200/interrupts.c	/^unsigned long long get_ticks(void)$/;"	f
+get_ticks	imx/interrupts.c	/^unsigned long long get_ticks(void)$/;"	f
+get_ticks	s3c24x0/interrupts.c	/^unsigned long long get_ticks(void)$/;"	f
+get_timer	at91rm9200/interrupts.c	/^ulong get_timer (ulong base)$/;"	f
+get_timer	imx/interrupts.c	/^ulong get_timer (ulong base)$/;"	f
+get_timer	ks8695/interrupts.c	/^ulong get_timer(ulong base)$/;"	f
+get_timer	s3c24x0/interrupts.c	/^ulong get_timer (ulong base)$/;"	f
+get_timer_masked	at91rm9200/interrupts.c	/^ulong get_timer_masked (void)$/;"	f
+get_timer_masked	imx/interrupts.c	/^ulong get_timer_masked (void)$/;"	f
+get_timer_masked	ks8695/interrupts.c	/^ulong get_timer_masked(void)$/;"	f
+get_timer_masked	s3c24x0/interrupts.c	/^ulong get_timer_masked (void)$/;"	f
+get_timer_raw	at91rm9200/interrupts.c	/^ulong get_timer_raw (void)$/;"	f
+ghcca	at91rm9200/usb_ohci.c	/^struct ohci_hcca ghcca[1];$/;"	v	typeref:struct:ohci_hcca
+ghcca	s3c24x0/usb_ohci.c	/^struct ohci_hcca ghcca[1];$/;"	v	typeref:struct:ohci_hcca
+gohci	at91rm9200/usb_ohci.c	/^static ohci_t gohci;$/;"	v	file:
+gohci	s3c24x0/usb_ohci.c	/^static ohci_t gohci;$/;"	v	file:
+got_rhsc	at91rm9200/usb_ohci.c	/^int got_rhsc;$/;"	v
+got_rhsc	s3c24x0/usb_ohci.c	/^int got_rhsc;$/;"	v
+gtd	at91rm9200/usb_ohci.h	/^td_t gtd[NUM_TD+1];$/;"	v
+gtd	s3c24x0/usb_ohci.h	/^td_t gtd[NUM_TD+1];$/;"	v
+hc_control	at91rm9200/usb_ohci.h	/^	__u32 hc_control;		\/* copy of the hc control reg *\/$/;"	m	struct:ohci
+hc_control	s3c24x0/usb_ohci.h	/^	__u32 hc_control;		\/* copy of the hc control reg *\/$/;"	m	struct:ohci
+hc_interrupt	at91rm9200/usb_ohci.c	/^hc_interrupt (void)$/;"	f	file:
+hc_interrupt	s3c24x0/usb_ohci.c	/^hc_interrupt (void)$/;"	f	file:
+hc_release_ohci	at91rm9200/usb_ohci.c	/^static void hc_release_ohci (ohci_t *ohci)$/;"	f	file:
+hc_release_ohci	s3c24x0/usb_ohci.c	/^static void hc_release_ohci (ohci_t *ohci)$/;"	f	file:
+hc_reset	at91rm9200/usb_ohci.c	/^static int hc_reset (ohci_t *ohci)$/;"	f	file:
+hc_reset	s3c24x0/usb_ohci.c	/^static int hc_reset (ohci_t *ohci)$/;"	f	file:
+hc_start	at91rm9200/usb_ohci.c	/^static int hc_start (ohci_t * ohci)$/;"	f	file:
+hc_start	s3c24x0/usb_ohci.c	/^static int hc_start (ohci_t * ohci)$/;"	f	file:
+hcca	at91rm9200/usb_ohci.h	/^	__u32	hcca;$/;"	m	struct:ohci_regs
+hcca	at91rm9200/usb_ohci.h	/^	struct ohci_hcca *hcca;		\/* hcca *\/$/;"	m	struct:ohci	typeref:struct:ohci::ohci_hcca
+hcca	s3c24x0/usb_ohci.h	/^	__u32	hcca;$/;"	m	struct:ohci_regs
+hcca	s3c24x0/usb_ohci.h	/^	struct ohci_hcca *hcca;		\/* hcca *\/$/;"	m	struct:ohci	typeref:struct:ohci::ohci_hcca
+hcfs2string	at91rm9200/usb_ohci.c	/^static char * hcfs2string (int state)$/;"	f	file:
+hcfs2string	s3c24x0/usb_ohci.c	/^static char * hcfs2string (int state)$/;"	f	file:
+highflash	ks8695/lowlevel_init.S	/^highflash:$/;"	l
+hwBE	at91rm9200/usb_ohci.h	/^	__u32 hwBE;		\/* Memory Buffer End Pointer *\/$/;"	m	struct:td
+hwBE	s3c24x0/usb_ohci.h	/^  	__u32 hwBE;		\/* Memory Buffer End Pointer *\/$/;"	m	struct:td
+hwCBP	at91rm9200/usb_ohci.h	/^	__u32 hwCBP;		\/* Current Buffer Pointer *\/$/;"	m	struct:td
+hwCBP	s3c24x0/usb_ohci.h	/^  	__u32 hwCBP;		\/* Current Buffer Pointer *\/$/;"	m	struct:td
+hwHeadP	at91rm9200/usb_ohci.h	/^	__u32 hwHeadP;$/;"	m	struct:ed
+hwHeadP	s3c24x0/usb_ohci.h	/^	__u32 hwHeadP;$/;"	m	struct:ed
+hwINFO	at91rm9200/usb_ohci.h	/^	__u32 hwINFO;$/;"	m	struct:ed
+hwINFO	at91rm9200/usb_ohci.h	/^	__u32 hwINFO;$/;"	m	struct:td
+hwINFO	s3c24x0/usb_ohci.h	/^	__u32 hwINFO;$/;"	m	struct:ed
+hwINFO	s3c24x0/usb_ohci.h	/^	__u32 hwINFO;$/;"	m	struct:td
+hwNextED	at91rm9200/usb_ohci.h	/^	__u32 hwNextED;$/;"	m	struct:ed
+hwNextED	s3c24x0/usb_ohci.h	/^	__u32 hwNextED;$/;"	m	struct:ed
+hwNextTD	at91rm9200/usb_ohci.h	/^	__u32 hwNextTD;		\/* Next TD Pointer *\/$/;"	m	struct:td
+hwNextTD	s3c24x0/usb_ohci.h	/^  	__u32 hwNextTD;		\/* Next TD Pointer *\/$/;"	m	struct:td
+hwPSW	at91rm9200/usb_ohci.h	/^	__u16 hwPSW[MAXPSW];$/;"	m	struct:td
+hwTailP	at91rm9200/usb_ohci.h	/^	__u32 hwTailP;$/;"	m	struct:ed
+hwTailP	s3c24x0/usb_ohci.h	/^	__u32 hwTailP;$/;"	m	struct:ed
+hwflow	imx/serial.c	/^static int hwflow = 0; \/* turned off by default *\/$/;"	v	file:
+hwflow	s3c24x0/serial.c	/^static int hwflow = 0; \/* turned off by default *\/$/;"	v	file:
+hwflow_onoff	imx/serial.c	/^int hwflow_onoff(int on)$/;"	f
+hwflow_onoff	s3c24x0/serial.c	/^int hwflow_onoff(int on)$/;"	f
+i2c_init	at91rm9200/i2c.c	/^i2c_init(int speed, int slaveaddr)$/;"	f
+i2c_init	s3c24x0/i2c.c	/^void i2c_init (int speed, int slaveadd)$/;"	f
+i2c_probe	at91rm9200/i2c.c	/^i2c_probe(unsigned char chip)$/;"	f
+i2c_probe	s3c24x0/i2c.c	/^int i2c_probe (uchar chip)$/;"	f
+i2c_read	at91rm9200/i2c.c	/^i2c_read (unsigned char chip, unsigned int addr, int alen,$/;"	f
+i2c_read	s3c24x0/i2c.c	/^int i2c_read (uchar chip, uint addr, int alen, uchar * buffer, int len)$/;"	f
+i2c_reg_read	at91rm9200/i2c.c	/^uchar i2c_reg_read(uchar i2c_addr, uchar reg)$/;"	f
+i2c_reg_write	at91rm9200/i2c.c	/^void i2c_reg_write(uchar i2c_addr, uchar reg, uchar val)$/;"	f
+i2c_transfer	s3c24x0/i2c.c	/^int i2c_transfer (unsigned char cmd_type,$/;"	f	file:
+i2c_write	at91rm9200/i2c.c	/^i2c_write(unsigned char chip, unsigned int addr, int alen,$/;"	f
+i2c_write	s3c24x0/i2c.c	/^int i2c_write (uchar chip, uint addr, int alen, uchar * buffer, int len)$/;"	f
+icache_disable	cpu.c	/^void icache_disable (void)$/;"	f
+icache_enable	cpu.c	/^void icache_enable (void)$/;"	f
+icache_status	cpu.c	/^int icache_status (void)$/;"	f
+imx_gpio_mode	imx/generic.c	/^void imx_gpio_mode(int gpio_mode)$/;"	f
+imx_serial	imx/serial.c	/^struct imx_serial {$/;"	s	file:
+index	at91rm9200/usb_ohci.h	/^	__u8 index;$/;"	m	struct:td
+index	s3c24x0/usb_ohci.h	/^  	__u8 index;$/;"	m	struct:td
+info	at91rm9200/usb_ohci.c	75;"	d	file:
+info	at91rm9200/usb_ohci.c	77;"	d	file:
+info	s3c24x0/usb_ohci.c	75;"	d	file:
+info	s3c24x0/usb_ohci.c	77;"	d	file:
+int_addr	at91rm9200/usb_ohci.h	/^	void *int_addr;$/;"	m	struct:virt_root_hub
+int_addr	s3c24x0/usb_ohci.h	/^	void *int_addr;$/;"	m	struct:virt_root_hub
+int_branch	at91rm9200/usb_ohci.h	/^	__u8 int_branch;$/;"	m	struct:ed
+int_branch	s3c24x0/usb_ohci.h	/^	__u8 int_branch;$/;"	m	struct:ed
+int_interval	at91rm9200/usb_ohci.h	/^	__u8 int_interval;$/;"	m	struct:ed
+int_interval	s3c24x0/usb_ohci.h	/^	__u8 int_interval;$/;"	m	struct:ed
+int_load	at91rm9200/usb_ohci.h	/^	__u8 int_load;$/;"	m	struct:ed
+int_load	s3c24x0/usb_ohci.h	/^	__u8 int_load;$/;"	m	struct:ed
+int_period	at91rm9200/usb_ohci.h	/^	__u8 int_period;$/;"	m	struct:ed
+int_period	s3c24x0/usb_ohci.h	/^	__u8 int_period;$/;"	m	struct:ed
+int_table	at91rm9200/usb_ohci.h	/^	__u32	int_table[NUM_INTS];	\/* Interrupt ED table *\/$/;"	m	struct:ohci_hcca
+int_table	s3c24x0/usb_ohci.h	/^	__u32	int_table[NUM_INTS];	\/* Interrupt ED table *\/$/;"	m	struct:ohci_hcca
+interrupt_init	at91rm9200/interrupts.c	/^int interrupt_init (void)$/;"	f
+interrupt_init	imx/interrupts.c	/^int interrupt_init (void)$/;"	f
+interrupt_init	ks8695/interrupts.c	/^int interrupt_init (void)$/;"	f
+interrupt_init	s3c24x0/interrupts.c	/^int interrupt_init (void)$/;"	f
+interval	at91rm9200/usb_ohci.h	/^	int interval;$/;"	m	struct:virt_root_hub
+interval	s3c24x0/usb_ohci.h	/^	int interval;$/;"	m	struct:virt_root_hub
+intrdisable	at91rm9200/usb_ohci.h	/^	__u32	intrdisable;$/;"	m	struct:ohci_regs
+intrdisable	s3c24x0/usb_ohci.h	/^	__u32	intrdisable;$/;"	m	struct:ohci_regs
+intrenable	at91rm9200/usb_ohci.h	/^	__u32	intrenable;$/;"	m	struct:ohci_regs
+intrenable	s3c24x0/usb_ohci.h	/^	__u32	intrenable;$/;"	m	struct:ohci_regs
+intrstatus	at91rm9200/usb_ohci.h	/^	__u32	intrstatus;$/;"	m	struct:ohci_regs
+intrstatus	at91rm9200/usb_ohci.h	/^	int intrstatus;$/;"	m	struct:ohci
+intrstatus	s3c24x0/usb_ohci.h	/^	__u32	intrstatus;$/;"	m	struct:ohci_regs
+intrstatus	s3c24x0/usb_ohci.h	/^	int intrstatus;$/;"	m	struct:ohci
+irq	at91rm9200/usb_ohci.h	/^	int irq;$/;"	m	struct:ohci
+irq	s3c24x0/usb_ohci.h	/^	int irq;$/;"	m	struct:ohci
+irq	start.S	/^irq:$/;"	l
+ks8695_read	ks8695/interrupts.c	29;"	d	file:
+ks8695_write	ks8695/interrupts.c	30;"	d	file:
+ks8695uart	ks8695/serial.c	/^struct ks8695uart {$/;"	s	file:
+last_iso	at91rm9200/usb_ohci.h	/^	__u16 last_iso;$/;"	m	struct:ed
+last_iso	s3c24x0/usb_ohci.h	/^	__u16 last_iso;$/;"	m	struct:ed
+lastdec	s3c24x0/interrupts.c	/^static ulong lastdec;$/;"	v	file:
+lastinc	at91rm9200/interrupts.c	/^static ulong lastinc;$/;"	v	file:
+length	at91rm9200/usb_ohci.h	/^	__u16 length;	\/* number of tds associated with this request *\/$/;"	m	struct:__anon1
+length	s3c24x0/usb_ohci.h	/^	__u16 length;	\/* number of tds associated with this request *\/$/;"	m	struct:__anon3
+lowlevel_init	at91rm9200/lowlevel_init.S	/^lowlevel_init:$/;"	l
+lowlevel_init	ks8695/lowlevel_init.S	/^lowlevel_init:$/;"	l
+lsthresh	at91rm9200/usb_ohci.h	/^	__u32	lsthresh;$/;"	m	struct:ohci_regs
+lsthresh	s3c24x0/usb_ohci.h	/^	__u32	lsthresh;$/;"	m	struct:ohci_regs
+lxt972_AutoNegotiate	at91rm9200/lxt972.c	/^UCHAR lxt972_AutoNegotiate (AT91PS_EMAC p_mac, int *status)$/;"	f
+lxt972_GetLinkSpeed	at91rm9200/lxt972.c	/^UCHAR lxt972_GetLinkSpeed (AT91PS_EMAC p_mac)$/;"	f
+lxt972_InitPhy	at91rm9200/lxt972.c	/^UCHAR lxt972_InitPhy (AT91PS_EMAC p_mac)$/;"	f
+lxt972_IsPhyConnected	at91rm9200/lxt972.c	/^unsigned int lxt972_IsPhyConnected (AT91PS_EMAC p_mac)$/;"	f
+m16_swap	at91rm9200/usb_ohci.c	80;"	d	file:
+m16_swap	s3c24x0/usb_ohci.c	80;"	d	file:
+m32_swap	at91rm9200/usb_ohci.c	81;"	d	file:
+m32_swap	s3c24x0/usb_ohci.c	81;"	d	file:
+maybe_print_eds	at91rm9200/usb_ohci.c	/^static void maybe_print_eds (char *label, __u32 value)$/;"	f	file:
+maybe_print_eds	s3c24x0/usb_ohci.c	/^static void maybe_print_eds (char *label, __u32 value)$/;"	f	file:
+mdelay	at91rm9200/usb_ohci.c	1449;"	d	file:
+mdelay	s3c24x0/usb_ohci.c	1481;"	d	file:
+min_t	at91rm9200/usb_ohci.c	64;"	d	file:
+min_t	s3c24x0/usb_ohci.c	64;"	d	file:
+next_dl_td	at91rm9200/usb_ohci.h	/^	struct td *next_dl_td;$/;"	m	struct:td	typeref:struct:td::td
+next_dl_td	s3c24x0/usb_ohci.h	/^  	struct td *next_dl_td;$/;"	m	struct:td	typeref:struct:td::td
+nobutton	ks8695/lowlevel_init.S	/^nobutton:$/;"	l
+not_used	start.S	/^not_used:$/;"	l
+ohci	at91rm9200/usb_ohci.h	/^typedef struct ohci {$/;"	s
+ohci	s3c24x0/usb_ohci.h	/^typedef struct ohci {$/;"	s
+ohci_dev	at91rm9200/usb_ohci.c	/^struct ohci_device ohci_dev;$/;"	v	typeref:struct:ohci_device
+ohci_dev	s3c24x0/usb_ohci.c	/^struct ohci_device ohci_dev;$/;"	v	typeref:struct:ohci_device
+ohci_device	at91rm9200/usb_ohci.h	/^struct ohci_device {$/;"	s
+ohci_device	s3c24x0/usb_ohci.h	/^struct ohci_device {$/;"	s
+ohci_dump	at91rm9200/usb_ohci.c	/^static void ohci_dump (ohci_t *controller, int verbose)$/;"	f	file:
+ohci_dump	s3c24x0/usb_ohci.c	/^static void ohci_dump (ohci_t *controller, int verbose)$/;"	f	file:
+ohci_dump_intr_mask	at91rm9200/usb_ohci.c	/^static void ohci_dump_intr_mask (char *label, __u32 mask)$/;"	f	file:
+ohci_dump_intr_mask	s3c24x0/usb_ohci.c	/^static void ohci_dump_intr_mask (char *label, __u32 mask)$/;"	f	file:
+ohci_dump_roothub	at91rm9200/usb_ohci.c	/^static void ohci_dump_roothub (ohci_t *controller, int verbose)$/;"	f	file:
+ohci_dump_roothub	s3c24x0/usb_ohci.c	/^static void ohci_dump_roothub (ohci_t *controller, int verbose)$/;"	f	file:
+ohci_dump_status	at91rm9200/usb_ohci.c	/^static void ohci_dump_status (ohci_t *controller)$/;"	f	file:
+ohci_dump_status	s3c24x0/usb_ohci.c	/^static void ohci_dump_status (ohci_t *controller)$/;"	f	file:
+ohci_hcca	at91rm9200/usb_ohci.h	/^struct ohci_hcca {$/;"	s
+ohci_hcca	s3c24x0/usb_ohci.h	/^struct ohci_hcca {$/;"	s
+ohci_inited	at91rm9200/usb_ohci.c	/^static char ohci_inited = 0;$/;"	v	file:
+ohci_inited	s3c24x0/usb_ohci.c	/^static char ohci_inited = 0;$/;"	v	file:
+ohci_regs	at91rm9200/usb_ohci.h	/^struct ohci_regs {$/;"	s
+ohci_regs	s3c24x0/usb_ohci.h	/^struct ohci_regs {$/;"	s
+ohci_roothub_regs	at91rm9200/usb_ohci.h	/^	struct	ohci_roothub_regs {$/;"	s	struct:ohci_regs
+ohci_roothub_regs	s3c24x0/usb_ohci.h	/^	struct	ohci_roothub_regs {$/;"	s	struct:ohci_regs
+ohci_submit_rh_msg	at91rm9200/usb_ohci.c	/^static int ohci_submit_rh_msg(struct usb_device *dev, unsigned long pipe,$/;"	f	file:
+ohci_submit_rh_msg	s3c24x0/usb_ohci.c	/^static int ohci_submit_rh_msg(struct usb_device *dev, unsigned long pipe,$/;"	f	file:
+ohci_t	at91rm9200/usb_ohci.h	/^} ohci_t;$/;"	t	typeref:struct:ohci
+ohci_t	s3c24x0/usb_ohci.h	/^} ohci_t;$/;"	t	typeref:struct:ohci
+p_mac	at91rm9200/ether.c	/^AT91PS_EMAC p_mac;$/;"	v
+pad1	at91rm9200/usb_ohci.h	/^	__u16	pad1;			\/* set to 0 on each frame_no change *\/$/;"	m	struct:ohci_hcca
+pad1	s3c24x0/usb_ohci.h	/^	__u16	pad1;			\/* set to 0 on each frame_no change *\/$/;"	m	struct:ohci_hcca
+periodicstart	at91rm9200/usb_ohci.h	/^	__u32	periodicstart;$/;"	m	struct:ohci_regs
+periodicstart	s3c24x0/usb_ohci.h	/^	__u32	periodicstart;$/;"	m	struct:ohci_regs
+phcca	at91rm9200/usb_ohci.c	/^struct ohci_hcca *phcca;$/;"	v	typeref:struct:ohci_hcca
+phcca	s3c24x0/usb_ohci.c	/^struct ohci_hcca *phcca;$/;"	v	typeref:struct:ohci_hcca
+pipe	at91rm9200/usb_ohci.h	/^	unsigned long pipe;$/;"	m	struct:__anon1
+pipe	s3c24x0/usb_ohci.h	/^	unsigned long pipe;$/;"	m	struct:__anon3
+pkt_print	at91rm9200/usb_ohci.c	/^static void pkt_print (struct usb_device * dev, unsigned long pipe, void * buffer,$/;"	f	file:
+pkt_print	s3c24x0/usb_ohci.c	/^static void pkt_print (struct usb_device * dev, unsigned long pipe, void * buffer,$/;"	f	file:
+portstatus	at91rm9200/usb_ohci.h	/^		__u32	portstatus[MAX_ROOT_PORTS];$/;"	m	struct:ohci_regs::ohci_roothub_regs
+portstatus	s3c24x0/usb_ohci.h	/^		__u32	portstatus[MAX_ROOT_PORTS];$/;"	m	struct:ohci_regs::ohci_roothub_regs
+prefetch_abort	start.S	/^prefetch_abort:$/;"	l
+ptd	at91rm9200/usb_ohci.h	/^td_t *ptd;$/;"	v
+ptd	s3c24x0/usb_ohci.h	/^td_t *ptd;$/;"	v
+rbf_t	at91rm9200/ether.c	/^} rbf_t;$/;"	t	typeref:struct:__anon2	file:
+rbfp	at91rm9200/ether.c	/^rbf_t *rbfp;$/;"	v
+read_p15_c1	cpu.c	/^static unsigned long read_p15_c1 (void)$/;"	f	file:
+read_roothub	at91rm9200/usb_ohci.c	105;"	d	file:
+read_roothub	s3c24x0/usb_ohci.c	107;"	d	file:
+readl	at91rm9200/usb_ohci.c	61;"	d	file:
+readl	s3c24x0/usb_ohci.c	61;"	d	file:
+regs	at91rm9200/usb_ohci.h	/^	struct ohci_regs *regs; \/* OHCI controller's memory *\/$/;"	m	struct:ohci	typeref:struct:ohci::ohci_regs
+regs	s3c24x0/usb_ohci.h	/^	struct ohci_regs *regs;	\/* OHCI controller's memory *\/$/;"	m	struct:ohci	typeref:struct:ohci::ohci_regs
+relocate	start.S	/^relocate:				\/* relocate U-Boot to RAM	    *\/$/;"	l
+reserved_for_hc	at91rm9200/usb_ohci.h	/^	u8		reserved_for_hc[116];$/;"	m	struct:ohci_hcca
+reserved_for_hc	s3c24x0/usb_ohci.h	/^	u8		reserved_for_hc[116];$/;"	m	struct:ohci_hcca
+reset	start.S	/^reset:$/;"	l
+reset_cpu	at91rm9200/interrupts.c	/^void reset_cpu (ulong ignored)$/;"	f
+reset_cpu	imx/interrupts.c	/^void reset_cpu (ulong ignored)$/;"	f
+reset_cpu	ks8695/interrupts.c	/^void reset_cpu (ulong ignored)$/;"	f
+reset_cpu	s3c24x0/interrupts.c	/^void reset_cpu (ulong ignored)$/;"	f
+reset_timer	at91rm9200/interrupts.c	/^void reset_timer (void)$/;"	f
+reset_timer	imx/interrupts.c	/^void reset_timer (void)$/;"	f
+reset_timer	ks8695/interrupts.c	/^void reset_timer(void)$/;"	f
+reset_timer	s3c24x0/interrupts.c	/^void reset_timer (void)$/;"	f
+reset_timer_masked	at91rm9200/interrupts.c	/^void reset_timer_masked (void)$/;"	f
+reset_timer_masked	imx/interrupts.c	/^void reset_timer_masked (void)$/;"	f
+reset_timer_masked	ks8695/interrupts.c	/^void reset_timer_masked(void)$/;"	f
+reset_timer_masked	s3c24x0/interrupts.c	/^void reset_timer_masked (void)$/;"	f
+revision	at91rm9200/usb_ohci.h	/^	__u32	revision;$/;"	m	struct:ohci_regs
+revision	s3c24x0/usb_ohci.h	/^	__u32	revision;$/;"	m	struct:ohci_regs
+rh	at91rm9200/usb_ohci.h	/^	struct virt_root_hub rh;$/;"	m	struct:ohci	typeref:struct:ohci::virt_root_hub
+rh	s3c24x0/usb_ohci.h	/^	struct virt_root_hub rh;$/;"	m	struct:ohci	typeref:struct:ohci::virt_root_hub
+rh_check_port_status	at91rm9200/usb_ohci.c	/^int rh_check_port_status(ohci_t *controller)$/;"	f
+rh_check_port_status	s3c24x0/usb_ohci.c	/^int rh_check_port_status(ohci_t *controller)$/;"	f
+root_hub_config_des	at91rm9200/usb_ohci.c	/^static __u8 root_hub_config_des[] =$/;"	v	file:
+root_hub_config_des	s3c24x0/usb_ohci.c	/^static __u8 root_hub_config_des[] =$/;"	v	file:
+root_hub_dev_des	at91rm9200/usb_ohci.c	/^static __u8 root_hub_dev_des[] =$/;"	v	file:
+root_hub_dev_des	s3c24x0/usb_ohci.c	/^static __u8 root_hub_dev_des[] =$/;"	v	file:
+root_hub_str_index0	at91rm9200/usb_ohci.c	/^static unsigned char root_hub_str_index0[] =$/;"	v	file:
+root_hub_str_index0	s3c24x0/usb_ohci.c	/^static unsigned char root_hub_str_index0[] =$/;"	v	file:
+root_hub_str_index1	at91rm9200/usb_ohci.c	/^static unsigned char root_hub_str_index1[] =$/;"	v	file:
+root_hub_str_index1	s3c24x0/usb_ohci.c	/^static unsigned char root_hub_str_index1[] =$/;"	v	file:
+roothub	at91rm9200/usb_ohci.h	/^	} roothub;$/;"	m	struct:ohci_regs	typeref:struct:ohci_regs::ohci_roothub_regs
+roothub	s3c24x0/usb_ohci.h	/^	} roothub;$/;"	m	struct:ohci_regs	typeref:struct:ohci_regs::ohci_roothub_regs
+roothub_a	at91rm9200/usb_ohci.c	/^static u32 roothub_a (struct ohci *hc)$/;"	f	file:
+roothub_a	s3c24x0/usb_ohci.c	/^static u32 roothub_a (struct ohci *hc)$/;"	f	file:
+roothub_b	at91rm9200/usb_ohci.c	/^static inline u32 roothub_b (struct ohci *hc)$/;"	f	file:
+roothub_b	s3c24x0/usb_ohci.c	/^static inline u32 roothub_b (struct ohci *hc)$/;"	f	file:
+roothub_portstatus	at91rm9200/usb_ohci.c	/^static u32 roothub_portstatus (struct ohci *hc, int i)$/;"	f	file:
+roothub_portstatus	s3c24x0/usb_ohci.c	/^static u32 roothub_portstatus (struct ohci *hc, int i)$/;"	f	file:
+roothub_status	at91rm9200/usb_ohci.c	/^static inline u32 roothub_status (struct ohci *hc)$/;"	f	file:
+roothub_status	s3c24x0/usb_ohci.c	/^static inline u32 roothub_status (struct ohci *hc)$/;"	f	file:
+send	at91rm9200/usb_ohci.h	/^	int send;$/;"	m	struct:virt_root_hub
+send	s3c24x0/usb_ohci.h	/^	int send;$/;"	m	struct:virt_root_hub
+serial_console	ks8695/serial.c	/^int serial_console = 1;$/;"	v
+serial_getc	at91rm9200/serial.c	/^int serial_getc (void)$/;"	f
+serial_getc	imx/serial.c	/^int serial_getc (void)$/;"	f
+serial_getc	ks8695/serial.c	/^int serial_getc(void)$/;"	f
+serial_getc	s3c24x0/serial.c	/^int serial_getc (void)$/;"	f
+serial_init	at91rm9200/serial.c	/^int serial_init (void)$/;"	f
+serial_init	imx/serial.c	/^int serial_init (void)$/;"	f
+serial_init	ks8695/serial.c	/^int serial_init(void)$/;"	f
+serial_init	s3c24x0/serial.c	/^int serial_init (void)$/;"	f
+serial_putc	at91rm9200/serial.c	/^void serial_putc (const char c)$/;"	f
+serial_putc	imx/serial.c	/^void serial_putc (const char c)$/;"	f
+serial_putc	ks8695/serial.c	/^void serial_putc(const char c)$/;"	f
+serial_putc	s3c24x0/serial.c	/^void serial_putc (const char c)$/;"	f
+serial_puts	at91rm9200/serial.c	/^void serial_puts (const char *s)$/;"	f
+serial_puts	imx/serial.c	/^serial_puts (const char *s)$/;"	f
+serial_puts	ks8695/serial.c	/^void serial_puts(const char *s)$/;"	f
+serial_puts	s3c24x0/serial.c	/^serial_puts (const char *s)$/;"	f
+serial_raw_putc	ks8695/serial.c	/^void serial_raw_putc(const char c)$/;"	f
+serial_setbrg	at91rm9200/serial.c	/^void serial_setbrg (void)$/;"	f
+serial_setbrg	imx/serial.c	/^void serial_setbrg (void)$/;"	f
+serial_setbrg	ks8695/serial.c	/^void serial_setbrg(void)$/;"	f
+serial_setbrg	s3c24x0/serial.c	/^void serial_setbrg (void)$/;"	f
+serial_tstc	at91rm9200/serial.c	/^int serial_tstc (void)$/;"	f
+serial_tstc	imx/serial.c	/^int serial_tstc (void)$/;"	f
+serial_tstc	ks8695/serial.c	/^int serial_tstc(void)$/;"	f
+serial_tstc	s3c24x0/serial.c	/^int serial_tstc (void)$/;"	f
+set_timer	at91rm9200/interrupts.c	/^void set_timer (ulong t)$/;"	f
+set_timer	imx/interrupts.c	/^void set_timer (ulong t)$/;"	f
+set_timer	ks8695/interrupts.c	/^void set_timer(ulong t)$/;"	f
+set_timer	s3c24x0/interrupts.c	/^void set_timer (ulong t)$/;"	f
+show_regs	interrupts.c	/^void show_regs (struct pt_regs *regs)$/;"	f
+size	at91rm9200/ether.c	/^	unsigned long addr, size;$/;"	m	struct:__anon2	file:
+sleeping	at91rm9200/usb_ohci.h	/^	int sleeping;$/;"	m	struct:ohci
+sleeping	s3c24x0/usb_ohci.h	/^	int sleeping;$/;"	m	struct:ohci
+slot_name	at91rm9200/usb_ohci.h	/^	const char	*slot_name;$/;"	m	struct:ohci
+slot_name	s3c24x0/usb_ohci.h	/^	const char	*slot_name;$/;"	m	struct:ohci
+software_interrupt	start.S	/^software_interrupt:$/;"	l
+sohci_get_current_frame_number	at91rm9200/usb_ohci.c	/^static int sohci_get_current_frame_number (struct usb_device *usb_dev)$/;"	f	file:
+sohci_get_current_frame_number	s3c24x0/usb_ohci.c	/^static int sohci_get_current_frame_number (struct usb_device *usb_dev)$/;"	f	file:
+sohci_submit_job	at91rm9200/usb_ohci.c	/^int sohci_submit_job(struct usb_device *dev, unsigned long pipe, void *buffer,$/;"	f
+sohci_submit_job	s3c24x0/usb_ohci.c	/^int sohci_submit_job(struct usb_device *dev, unsigned long pipe, void *buffer,$/;"	f
+stack_setup	start.S	/^stack_setup:$/;"	l
+state	at91rm9200/usb_ohci.h	/^	__u8 state;$/;"	m	struct:ed
+state	at91rm9200/usb_ohci.h	/^	int   state;$/;"	m	struct:__anon1
+state	s3c24x0/usb_ohci.h	/^	__u8 state;$/;"	m	struct:ed
+state	s3c24x0/usb_ohci.h	/^	int   state;$/;"	m	struct:__anon3
+status	at91rm9200/usb_ohci.h	/^		__u32	status;$/;"	m	struct:ohci_regs::ohci_roothub_regs
+status	s3c24x0/usb_ohci.h	/^		__u32	status;$/;"	m	struct:ohci_regs::ohci_roothub_regs
+submit_bulk_msg	at91rm9200/usb_ohci.c	/^int submit_bulk_msg(struct usb_device *dev, unsigned long pipe, void *buffer,$/;"	f
+submit_bulk_msg	s3c24x0/usb_ohci.c	/^int submit_bulk_msg(struct usb_device *dev, unsigned long pipe, void *buffer,$/;"	f
+submit_common_msg	at91rm9200/usb_ohci.c	/^int submit_common_msg(struct usb_device *dev, unsigned long pipe, void *buffer,$/;"	f
+submit_common_msg	s3c24x0/usb_ohci.c	/^int submit_common_msg(struct usb_device *dev, unsigned long pipe, void *buffer,$/;"	f
+submit_control_msg	at91rm9200/usb_ohci.c	/^int submit_control_msg(struct usb_device *dev, unsigned long pipe, void *buffer,$/;"	f
+submit_control_msg	s3c24x0/usb_ohci.c	/^int submit_control_msg(struct usb_device *dev, unsigned long pipe, void *buffer,$/;"	f
+submit_int_msg	at91rm9200/usb_ohci.c	/^int submit_int_msg(struct usb_device *dev, unsigned long pipe, void *buffer,$/;"	f
+submit_int_msg	s3c24x0/usb_ohci.c	/^int submit_int_msg(struct usb_device *dev, unsigned long pipe, void *buffer,$/;"	f
+td	at91rm9200/usb_ohci.h	/^	td_t *td[N_URB_TD];	\/* list pointer to all corresponding TDs associated with this request *\/$/;"	m	struct:__anon1
+td	at91rm9200/usb_ohci.h	/^struct td {$/;"	s
+td	s3c24x0/usb_ohci.h	/^	td_t *td[N_URB_TD];	\/* list pointer to all corresponding TDs associated with this request *\/$/;"	m	struct:__anon3
+td	s3c24x0/usb_ohci.h	/^struct td {$/;"	s
+td_alloc	at91rm9200/usb_ohci.h	/^td_alloc (struct usb_device *usb_dev)$/;"	f
+td_alloc	s3c24x0/usb_ohci.h	/^td_alloc (struct usb_device *usb_dev)$/;"	f
+td_cnt	at91rm9200/usb_ohci.h	/^	__u16 td_cnt;	\/* number of tds already serviced *\/$/;"	m	struct:__anon1
+td_cnt	s3c24x0/usb_ohci.h	/^	__u16 td_cnt;	\/* number of tds already serviced *\/$/;"	m	struct:__anon3
+td_fill	at91rm9200/usb_ohci.c	/^static void td_fill (ohci_t *ohci, unsigned int info,$/;"	f	file:
+td_fill	s3c24x0/usb_ohci.c	/^static void td_fill (ohci_t *ohci, unsigned int info,$/;"	f	file:
+td_submit_job	at91rm9200/usb_ohci.c	/^static void td_submit_job (struct usb_device *dev, unsigned long pipe, void *buffer,$/;"	f	file:
+td_submit_job	s3c24x0/usb_ohci.c	/^static void td_submit_job (struct usb_device *dev, unsigned long pipe, void *buffer,$/;"	f	file:
+td_t	at91rm9200/usb_ohci.h	/^typedef struct td td_t;$/;"	t	typeref:struct:td
+td_t	s3c24x0/usb_ohci.h	/^typedef struct td td_t;$/;"	t	typeref:struct:td
+timer_inited	ks8695/interrupts.c	/^int timer_inited;$/;"	v
+timer_load_val	s3c24x0/interrupts.c	/^int timer_load_val = 0;$/;"	v
+timer_ticks	ks8695/interrupts.c	/^ulong timer_ticks;$/;"	v
+timestamp	at91rm9200/interrupts.c	/^static ulong timestamp;$/;"	v	file:
+timestamp	s3c24x0/interrupts.c	/^static ulong timestamp;$/;"	v	file:
+tmr	at91rm9200/interrupts.c	/^AT91PS_TC tmr;$/;"	v
+transfer_len	at91rm9200/usb_ohci.h	/^	int transfer_len;$/;"	m	struct:td
+transfer_len	s3c24x0/usb_ohci.h	/^	int transfer_len;$/;"	m	struct:td
+type	at91rm9200/usb_ohci.h	/^	__u8 type;$/;"	m	struct:ed
+type	s3c24x0/usb_ohci.h	/^	__u8 type;$/;"	m	struct:ed
+ubir	imx/serial.c	/^	volatile uint32_t ubir;$/;"	m	struct:imx_serial	file:
+ubmr	imx/serial.c	/^	volatile uint32_t ubmr;$/;"	m	struct:imx_serial	file:
+ubrc	imx/serial.c	/^	volatile uint32_t ubrc;$/;"	m	struct:imx_serial	file:
+ucr1	imx/serial.c	/^	volatile uint32_t ucr1;$/;"	m	struct:imx_serial	file:
+ucr2	imx/serial.c	/^	volatile uint32_t ucr2;$/;"	m	struct:imx_serial	file:
+ucr3	imx/serial.c	/^	volatile uint32_t ucr3;$/;"	m	struct:imx_serial	file:
+ucr4	imx/serial.c	/^	volatile uint32_t ucr4;$/;"	m	struct:imx_serial	file:
+udelay	at91rm9200/interrupts.c	/^void udelay (unsigned long usec)$/;"	f
+udelay	imx/interrupts.c	/^void udelay (unsigned long usec)$/;"	f
+udelay	ks8695/interrupts.c	/^void udelay(ulong usec)$/;"	f
+udelay	s3c24x0/interrupts.c	/^void udelay (unsigned long usec)$/;"	f
+udelay_masked	at91rm9200/interrupts.c	/^void udelay_masked (unsigned long usec)$/;"	f
+udelay_masked	imx/interrupts.c	/^void udelay_masked (unsigned long usec)$/;"	f
+udelay_masked	s3c24x0/interrupts.c	/^void udelay_masked (unsigned long usec)$/;"	f
+uesc	imx/serial.c	/^	volatile uint32_t uesc;$/;"	m	struct:imx_serial	file:
+ufcr	imx/serial.c	/^	volatile uint32_t ufcr;$/;"	m	struct:imx_serial	file:
+undefined_instruction	start.S	/^undefined_instruction:$/;"	l
+unused	at91rm9200/usb_ohci.h	/^	__u32 unused[3];$/;"	m	struct:ed
+unused	at91rm9200/usb_ohci.h	/^	__u8 unused;$/;"	m	struct:td
+unused	s3c24x0/usb_ohci.h	/^	__u32 unused[3];$/;"	m	struct:ed
+unused	s3c24x0/usb_ohci.h	/^  	__u8 unused;$/;"	m	struct:td
+unused2	at91rm9200/usb_ohci.h	/^	__u32 unused2[2];$/;"	m	struct:td
+unused2	s3c24x0/usb_ohci.h	/^	__u32 unused2[2];$/;"	m	struct:td
+urb_finished	s3c24x0/usb_ohci.c	/^int urb_finished = 0;$/;"	v
+urb_free_priv	at91rm9200/usb_ohci.c	/^static void urb_free_priv (urb_priv_t * urb)$/;"	f	file:
+urb_free_priv	s3c24x0/usb_ohci.c	/^static void urb_free_priv (urb_priv_t * urb)$/;"	f	file:
+urb_priv	at91rm9200/usb_ohci.c	/^urb_priv_t urb_priv;$/;"	v
+urb_priv	s3c24x0/usb_ohci.c	/^urb_priv_t urb_priv;$/;"	v
+urb_priv_t	at91rm9200/usb_ohci.h	/^} urb_priv_t;$/;"	t	typeref:struct:__anon1
+urb_priv_t	s3c24x0/usb_ohci.h	/^} urb_priv_t;$/;"	t	typeref:struct:__anon3
+urxd	imx/serial.c	/^	volatile uint32_t urxd[16];$/;"	m	struct:imx_serial	file:
+us	at91rm9200/serial.c	/^AT91PS_USART us = (AT91PS_USART) AT91C_BASE_DBGU;$/;"	v
+us	at91rm9200/serial.c	/^AT91PS_USART us = (AT91PS_USART) AT91C_BASE_US0;$/;"	v
+us	at91rm9200/serial.c	/^AT91PS_USART us = (AT91PS_USART) AT91C_BASE_US1;$/;"	v
+usb_dev	at91rm9200/usb_ohci.h	/^	struct usb_device *usb_dev;$/;"	m	struct:ed	typeref:struct:ed::usb_device
+usb_dev	at91rm9200/usb_ohci.h	/^	struct usb_device *usb_dev;$/;"	m	struct:td	typeref:struct:td::usb_device
+usb_dev	s3c24x0/usb_ohci.h	/^	struct usb_device *usb_dev;$/;"	m	struct:ed	typeref:struct:ed::usb_device
+usb_dev	s3c24x0/usb_ohci.h	/^	struct usb_device *usb_dev;$/;"	m	struct:td	typeref:struct:td::usb_device
+usb_lowlevel_init	at91rm9200/usb_ohci.c	/^int usb_lowlevel_init(void)$/;"	f
+usb_lowlevel_init	s3c24x0/usb_ohci.c	/^int usb_lowlevel_init(void)$/;"	f
+usb_lowlevel_stop	at91rm9200/usb_ohci.c	/^int usb_lowlevel_stop(void)$/;"	f
+usb_lowlevel_stop	s3c24x0/usb_ohci.c	/^int usb_lowlevel_stop(void)$/;"	f
+usr1	imx/serial.c	/^	volatile uint32_t usr1;$/;"	m	struct:imx_serial	file:
+usr2	imx/serial.c	/^	volatile uint32_t usr2;$/;"	m	struct:imx_serial	file:
+utim	imx/serial.c	/^	volatile uint32_t utim;$/;"	m	struct:imx_serial	file:
+uts	imx/serial.c	/^	volatile uint32_t uts;$/;"	m	struct:imx_serial	file:
+utxd	imx/serial.c	/^	volatile uint32_t utxd[16];$/;"	m	struct:imx_serial	file:
+virt_root_hub	at91rm9200/usb_ohci.h	/^struct virt_root_hub {$/;"	s
+virt_root_hub	s3c24x0/usb_ohci.h	/^struct virt_root_hub {$/;"	s
+write_p15_c1	cpu.c	/^static void write_p15_c1 (unsigned long value)$/;"	f	file:
+writel	at91rm9200/usb_ohci.c	62;"	d	file:
+writel	s3c24x0/usb_ohci.c	62;"	d	file:
