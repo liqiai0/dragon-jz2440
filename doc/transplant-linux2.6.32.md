@@ -47,7 +47,7 @@ Error: unrecognized/unsupported machine ID (r1 = 0x0000016a).
 ```
 内核中机器码位置在arch/arm/tools/mach-types中
 
-###6.修改mtd分区表与添加mtd驱动
+###6.修改mtd分区表
 arch/arm/plat-s3c24xx/common-smdk.c中，修改分区表
 ```
   static struct mtd_partition smdk_default_nand_part[] = { 
@@ -83,5 +83,16 @@ arch/arm/plat-s3c24xx/common-smdk.c中，修改分区表
       } 
   };
 ```
-
+###7.向内核中添加yaffs2
+下载yaffs2的源码包，并将yaffs2打入内核中。
+地址：```http://www.aleph1.co.uk/gitweb/?p=yaffs2.git;a=summary```
+解压源码包，```tar -xvf  yaffs2-HEAD-c1422c2.tar.gz```
+打入内核：```cd yaffs2-HEAD-c1422c2;./patch-ker.sh c m  ~/qli-worlk/dragon-jz2440/kernel/qli/linux-2.6.32.2```
+内核配置yaffs2
+```
+File  systems  --->
+    Miscellaneous  filesystems  --->
+        <*>  YAFFS2  file  system  support
+        [*]  Autoselect  yaffs2  format
+```
 
