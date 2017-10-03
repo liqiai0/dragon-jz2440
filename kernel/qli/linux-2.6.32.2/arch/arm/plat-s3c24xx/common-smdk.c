@@ -45,6 +45,11 @@
 #include <plat/devs.h>
 #include <plat/pm.h>
 
+#if defined (CONFIG_DM9000) || (CONFIG_DM9000_MODULE)
+#include <linux/dm9000.h>
+#endif
+
+
 /* LED devices */
 
 static struct s3c24xx_led_platdata smdk_pdata_led4 = {
@@ -140,6 +145,40 @@ static struct mtd_partition smdk_default_nand_part[] = {
     }   
 };
 
+#if defined (CONFIG_DM9000) || (CONFIG_DM9000_MODULE)
+static struct resource s3c_dm9k_resource[] = {
+    [0] = {
+        .start = S3C2410_CS4, /* ADDrR2=0 */
+        .end = S3C2410_CS4 + 3,
+        .flags = IORESOURCE_MEM,
+    },
+    [1] = {
+        .start = S3C2410_CS4 + 4,
+        .end = S3C2410_CS4 + 4 + 4,
+        .flags = IORESOURCE_MEM,
+    },
+    [2] = {
+        .start = IRQ_EINT7, /* 中断号 */
+        .end = IRQ_EINT7,
+        .flags = IORESOURCE_IRQ|IORESOURCE_IRQ_HIGHEDGE,
+    }
+};
+
+static struct dm9000_plat_data s3c_dm9k_platdata = {
+    .flags = DM9000_PLATF_16BITONLY,
+};
+
+static struct platform_device s3c_device_dm9k = {
+    .name = "dm9000",
+    .id = 0,
+    .num_resources = ARRAY_SIZE(s3c_dm9k_resource),
+    .resource = s3c_dm9k_resource,
+    .dev = {
+        .platform_data = &s3c_dm9k_platdata,
+    }
+};
+
+#endif
 static struct s3c2410_nand_set smdk_nand_sets[] = {
     [0] = {
         .name		= "NAND",
@@ -169,6 +208,9 @@ static struct platform_device __initdata *smdk_devs[] = {
     &smdk_led5,
     &smdk_led6,
     &smdk_led7,
+#if defined (CONFIG_DM9000) || defined (CONFIG_DM9000_MODULE)
+    &s3c_device_dm9k,
+#endif
 };
 
 void __init smdk_machine_init(void)
