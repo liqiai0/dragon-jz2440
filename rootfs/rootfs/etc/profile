@@ -5,4 +5,4 @@ export LD_LIBRARY_PATH=/lib:/usr/lib
 USER="`id -un`"
 LOGNAME=$USER
 HOSTNAME='/bin/hostname'
-PS1='[root@ZRTStation]# ' 
+PS1='[root@Dragon]# ' 
