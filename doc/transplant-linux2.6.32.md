@@ -20,11 +20,13 @@ make uImage  -j4
 说明:这个文件就是 S3C24XX 系列开发板的板级支持包(BSP)
 进入“System Type”选项单,里面的选项保持默认
 在“S3C24XX Machine”选项中只配置这几项(其他的选项取消):
-4S3C2410 Machine --->
+```
+S3C2410 Machine --->
 [\*] SMDK2410/A9M2410
 S3C2440 Machine --->
 [\*] SMDK2440
 [\*] SMDK2440 with S3C2440 cpu moudle
+```
 配置完后,回到主菜单,选择这一项“Save an Alternate Configuration File”
 输入要保存的配置文件名称:.config
 ###4.修改时钟
