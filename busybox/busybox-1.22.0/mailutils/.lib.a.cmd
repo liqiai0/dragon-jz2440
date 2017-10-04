@@ -1,0 +1,1 @@
+cmd_mailutils/lib.a := rm -f mailutils/lib.a; /opt/arm-linux-gcc-4.3.2/bin/arm-linux-ar  rcs mailutils/lib.a mailutils/mail.o mailutils/makemime.o mailutils/popmaildir.o mailutils/reformime.o mailutils/sendmail.o

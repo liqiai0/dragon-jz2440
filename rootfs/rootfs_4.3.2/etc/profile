@@ -1,0 +1,8 @@
+#! /bin/sh
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin          
+export LD_LIBRARY_PATH=/lib:/usr/lib        
+/bin/hostname
+USER="`id -un`"
+LOGNAME=$USER
+HOSTNAME='/bin/hostname'
+PS1='[root@Dragon]# ' 
